@@ -6,40 +6,235 @@
 
     <!-- include system scripts, page meta, and header code injection -->
     {squarespace-headers}
+    
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
   </head>
   <body id="{squarespace.page-id}" class="{squarespace.page-classes}">
 
+      <div id="nav" class="nav-ct">
+        <div class="nav-img-ct">
+          <img src="/assets/gems-logo.png" alt="" />
+        </div>
+        <div class="menu-ct">
+          <li><a href="/free">About</a></li>
+          <li><a href="/free">Media</a></li>
+          <li><a href="/free">Legacy</a></li>
+          <div class="nav-divider"></div>
+          <li><a href="/free">GEMS Portal</a></li>
+        </div>
+      </div>
+
     <div class="site-container">
+  
+      <div class="cont-background ">
+        <img class="" src="/assets/diamonds-back.png" />  
+      </div>
 
-      <header class="site-header">
-        <!-- site navigation -->
-        <squarespace:navigation navigationId="siteNav" template="site-navigation" />
+      <div class="opener-cards">
+        <div class="interesting-text-ct">
 
-        <!-- site title or logo -->
-        {.section website}
-          <h1 class="site-title-heading" data-content-field="site-title">
-            <a href="/" class="site-title-link">{siteTitle}</a>
+        </div>
+        <div class="interesting-ct">
+            <h1 class="stroke"> 
+              SUCCESS<br>
+              IN ACTION
+            </h1>
+            <img class="left-diamond" src="/assets/diamond.png" alt=""/>
+            <img class="right-diamond" src="/assets/diamond.png" alt=""/>
+            <h1> 
+              SUCCESS<br>
+              IN ACTION
+            </h1>
+
+            <p>
+              {#  Hey  }
+            </p>
+            <div class="explore-trigger-ct">
+              <div id="progressBar"></div>
+              <p class="explore-trigger">
+                Hover to explore
+              </p>
+            </div>
+        </div>
+
+        <div class="cards">
+            <div class="grad-card opener-card card-1">
+                  <div class="overlay"></div>
+                  <img src="/assets/grad-1.png" alt="">
+              </div>
+            
+              {#  other cards neeed to appear small behind main  }
+              <div class="grad-card secondary-card card-2">
+                  <div class="overlay"></div>
+                
+                  <img src="/assets/grad-2.png" alt="">
+              </div>
+              <div class="grad-card secondary-card card-3">
+                  <div class="overlay"></div>
+                
+                  <img src="/assets/grad-2.png" alt="">
+              </div>
+        </div>
+
+      </div>
+
+      <div class="gems-archive-section">
+        <div class="cont-background ">
+          <img class="" src="/assets/archive-background.png" />  
+        </div>
+
+        <div class="text-stack">
+          <div class="text-ct">
+            <h3 class="tag">GEMS BLOG</h3>
+            <h1>
+            Read <br>
+              it all
+            </h1>
+            <p>
+            We've created a blog highlighting successes and opininated columns 
+            from current GEMS. New posts are added every month.
+      pro
+            </p>
+          </div>
+          
+
+          <div class="action-btn">
+              <div class="action-img-ct">
+                <img src="/assets/stars.png" alt="">
+              </div>
+              <p>
+               Start reading now 
+              </p>
+            </div>
+        </div>
+      </div>
+
+      <div class="gems-portal-section">
+        <div class="gems-portal-img-stack">
+          <img class="moveRight" src="/assets/gems-portal-top.png" alt="">
+          <img class="scaleUp" src="/assets/gems-portal-mid.png" alt="">
+          <img  class="leftyAnRotate" src="/assets/gems-portal-bottom.png" alt="">
+        </div>
+        <div class="gems-portal-text-stack">
+          <h3 class="tag">GEMS PORTAL</h3>
+          <h1>
+            <span class="stroke">A new</span><br>
+            <span class="stroke">way to</span> <br>
+            support
           </h1>
-        {.end}
-      </header>
+          <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+          aliquip ex ea commodo consequat.
+          </p>
+          <div class="action-btn">
+              <div class="action-img-ct">
+                <img src="/assets/stars.png" alt="">
+              </div>
+              <p>
+                Join Waitlist
+              </p>
+            
+        </div>
+      </div>
 
-      <!-- cms content injection point -->
-      <main class="content-container" role="main" data-content-field="main-content">
-       {squarespace.main-content}
-      </main>
 
-      <!--Footer with open block field -->
-      <footer class="site-footer">
-        <squarespace:block-field id="footerBlocks" columns="12" />
-      </footer>
+       <div class="footer">
+          <div class="cont-background ">
+            <img class="things" src="/assets/gems-back.png" />  
+          </div>
+          <div class="connect-ct">
+              <div class="connect-text-ct">
+                <h1>Stay connected.</h1>
+                <p>
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                  tempor incididunt ut labore
+                </p>
+              </div>
+              <div class="action-input-ct">
+                <input type="email" name="email" placeholder="Enter email"/>
+                <input type="submit" name="submit" />
+              </div>
+          </div>
+          {#  <div class="bottom-nav-ct">
+              <div class="nav-img-ct">
+                <img src="/assets/gems-logo.png" alt="" />
+              </div>
+              <div class="menu-ct">
+                <li><a href="/free">About</a></li>
+                <li><a href="/free">Media</a></li>
+                <li><a href="/free">Legacy</a></li>
+                <div class="nav-divider"></div>
+                <li><a href="/free">GEMS Portal</a></li>
+              </div>
+          </div>  }
+        </div>
+</div>
+
 
     </div>
-
-    <!-- combo and minify scripts when not logged in -->
-    <squarespace:script src="site.js" combo="{.if authenticatedAccount}false{.or}true{.end}" />
-
-    <!-- other scripts, and footer code injection -->
-    {squarespace-footers}
-
   </body>
+  <script type="text/javascript">
+    $(function() {
+
+      var navbar = document.getElementById("nav");
+      var sticky = navbar.offsetTop;
+
+      function stickyNav() {
+        if ($(".site-container").offset().top <= sticky) {
+          navbar.classList.add("sticky")
+          {#  $(".nav-img-ct img").attr("src", "/assets/gems-log-purple.png");  }
+        } 
+        
+         if ($(".site-container").offset().top == 0 
+         ||  $(".site-container").offset().top >= sticky) {
+          navbar.classList.remove("sticky");
+          $(".nav-img-ct img").attr("src", "/assets/gems-logo.png");
+
+        }
+      }
+
+      $("body").on("scroll", function() {
+        {#  alert("he")  }
+            stickyNav();
+          });
+
+        var myInterval = ""; 
+          var width = 1;
+
+        function myTimer() {
+            var elem = document.getElementById("progressBar");
+              if (width >= 100) {
+                clearInterval(myInterval);
+                {#  document.location.href = "/free";  }
+                i = 0;
+              } else {
+                width++;
+                elem.style.width = width + "%";
+              }
+        }
+
+        function myStopFunction() {
+          width = 0;
+          {#  alert(myInterval);  }
+          clearInterval(myInterval);
+        }
+       
+
+      $(document).ready(() => {
+          
+        $(".explore-trigger-ct").on("mouseenter", function() {
+          $(".explore-trigger").html("Continue hovering...")
+          myInterval = setInterval(myTimer, 50);
+        })
+         $(".explore-trigger-ct").on("mouseleave", function(){
+            $(".explore-trigger").html(" Hover to explore"  )
+            i = 0;
+             $("#progressBar").css({width: "0px"});
+             myStopFunction();
+        })
+      })
+    })();
+  </script>
 </html>
