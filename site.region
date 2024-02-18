@@ -31,10 +31,32 @@
       </div>
 
       <div class="opener-cards">
-        <div class="interesting-text-ct">
-
-        </div>
-        <div class="interesting-ct">
+      
+            <div class="interesting-ct">
+              <div class="interesting-text-ct">
+                <div class="profile-info-ct">
+                  <div class="profile-header-ct">
+                      <div class="profile-pic-ct">
+                        <img src="/assets/profile-pic.png">
+                      </div>
+                      <h3>
+                        Sabriana
+                      </h3>
+                  </div>
+                  <div class="profile-fact-ct">
+                    <h3>
+                      Masters in Cyber Security
+                    </h3>
+                  </div>
+                </div>
+                <div class="profile-bio-ct">
+                  <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et.
+                  </p>
+                </div>
+                
+            </div>
             <h1 class="stroke"> 
               SUCCESS<br>
               IN ACTION
@@ -91,9 +113,9 @@
               it all
             </h1>
             <p>
-            We've created a blog highlighting successes and opininated columns 
-            from current GEMS. New posts are added every month.
-      pro
+          Lorem ipsum dolor sit amet, consectetur adipiscing 
+          elit, sed do eiusmod tempor incididunt ut labore et 
+          dolore magna aliqua.
             </p>
           </div>
           
@@ -223,7 +245,28 @@
        
 
       $(document).ready(() => {
-          
+
+        var base = $(".grad-card:nth(1)").position().top;
+        var leftBase = $(".grad-card:nth(1)").offset().left;
+        {#  alert(leftBase);  }
+        var difference; 
+
+        {#  if (winderinnerWidth)  }
+        if (window.innerWidth <= 1440) {
+            difference = 3;
+        } else {
+            difference = 2;
+        }
+
+        $(".interesting-text-ct").css({top: base, left: leftBase / difference});
+        $(".interesting-text-ct").addClass("fadeIn");
+        
+        $(window).on("resize", function(){
+            var base = $(".grad-card:nth(1)").position().top;
+            var leftBase = $(".grad-card:nth(1)").offset().left;
+            $(".interesting-text-ct").css({top: base, left: leftBase / difference});
+        })
+
         $(".explore-trigger-ct").on("mouseenter", function() {
           $(".explore-trigger").html("Continue hovering...")
           myInterval = setInterval(myTimer, 50);
