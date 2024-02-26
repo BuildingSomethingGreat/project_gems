@@ -205,7 +205,7 @@
     </div>
   </body>
   <script type="text/javascript">
-    $(function() {
+    (function() {
 
       var navbar = document.getElementById("nav");
       var sticky = navbar.offsetTop;
