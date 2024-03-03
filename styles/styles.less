@@ -864,7 +864,7 @@ body:has(.explore-trigger-ct:hover)  .card-3 {
 .pillar {
   display: flex;
   align-items: center;
-
+  z-index: 10;
   margin: auto 5%;
   width: 280px;
   min-width: 280px;
@@ -1005,7 +1005,7 @@ padding: auto 2%;
   z-index: 100;
   min-height: 500px;
 
-  overflow: hidden;
+  // overflow: hidden;
 
   width: 100%;
   display: flex;
@@ -1134,10 +1134,8 @@ padding: auto 2%;
 }
 
 .scaleUp {
-
   animation: scaleUp linear;
   animation-timeline: view();
-  // -webkit-animation-timeline: view();
   animation-iteration-count: 1;
 }
 
@@ -1153,17 +1151,23 @@ padding: auto 2%;
 }
 
 .leftyAnRotate {
-
   animation: leftyAnRotate linear;
   animation-timeline: view();
-
-  // -webkit-animation-timeline: view();
   animation-iteration-count: .8;
 }
 
 @keyframes leftyAnRotate{
   from {
-    transform: translateX(0) rotate(0);
+    transform: translateX(0) rotate(0deg);
+}
+  to {
+    transform: translateX(-10px) rotate(-20deg);
+  }
+}
+
+@-webkit-keyframes leftyAnRotate{
+  from {
+    transform: translateX(0) rotate(0deg);
 }
   to {
     transform: translateX(-10px) rotate(-20deg);
@@ -1171,15 +1175,21 @@ padding: auto 2%;
 }
 
 .moveRight {
-
   animation: moveRight linear;
-  animation-timeline: view(block 50% 10%);
-  -webkit-animation-timeline: view(block 50% 10%);
+  animation-timeline: view();
   animation-iteration-count: .5;
-  -webkit-animation-iteration-count: .5;
 }
 
 @keyframes moveRight {
+  from {
+    transform: translateX(0);
+}
+  to {
+    transform: translateX(50px);
+  }
+}
+
+@-webkit-keyframes moveRight {
   from {
     transform: translateX(0);
 }
