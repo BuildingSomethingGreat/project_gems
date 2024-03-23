@@ -1,0 +1,232 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+    <!-- include system scripts, page meta, and header code injection -->
+    {squarespace-headers}
+    
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.3/jquery.scrollTo.min.js" ></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  
+  </head>
+  <body id="{squarespace.page-id}" class="{squarespace.page-classes}">
+
+      <div id="nav" class="nav-ct">
+        <div class="nav-img-ct">
+          <img src="/assets/gems-logo.png" alt="" />
+        </div>
+        <div class="menu-ct">
+          <li><a href="/free">About</a></li>
+          <li><a href="/free">Media</a></li>
+          <li><a href="/free">Legacy</a></li>
+          <div class="nav-divider"></div>
+          <li><a href="/free">GEMS Portal</a></li>
+        </div>
+      </div>
+
+    <div class="site-container">
+  
+          <div class="swipe-cont">
+              <h1 class="">
+                   WANDE IS <br>
+                  ACCOMPLISHING <br>
+                  ALL THINGS <br>
+                  THROUGH <br>
+                  <span >CHRIST</span>
+                </h1>
+            <div class="swiper Slider-container">
+                <div class="swiper-wrapper">
+                  
+
+                    <div class="swiper-slide">
+                      <div class="link-ct">
+                        <a href="https://www.grammy.com/news/trap-gospel-christian-rappers-feature-wande-alex-jean-bigbreeze-videos"><img src="assets/link.png" alt="link"></a> 
+                      </div>
+                      <div class="swipe-header-stack">
+                        <h2>Grammy Nomination</h2>
+                      </div>
+                      <div class="overlay"></div>
+                      <img src="assets/album-1.png" alt="Slide Image" />
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="link-ct">
+                        <a href="https://www.iamsecond.com/film/wande/"><img src="assets/link.png" alt="link"></a> 
+                      </div>
+                      <div class="swipe-header-stack">
+                        <h2>Hear about wande's confidence</h2>
+                      </div>
+                      <div class="overlay"></div>
+                      <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEBUPDxAVFRUQFRUVGBUQFRAVFRUQFRUWFhUVFRUYHSggGBolGxUXITEhJSkrLi4vFx8zODMsNygtLisBCgoKDg0OGxAQGy0mHSUtLS8tLS0tLS0rLS0tLS0tLS8vLS0tKy0tLS0tLS8tKy0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAN4A4wMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAABAgADBAUGBwj/xAA7EAABAwIEAwYCCgIABwAAAAABAAIRAyEEBRIxQVFxBhMiYYGRocEHFCMyQlKx0eHwM2JTY3KCkqLx/8QAGgEAAwEBAQEAAAAAAAAAAAAAAAECAwQFBv/EACsRAAICAgIBAwIFBQAAAAAAAAABAhEDEiExBBNBUSJhMnGRwfAFI0Khsf/aAAwDAQACEQMRAD8A7ABO0IAJwEHtsZqsaErU4SIYwTAINThBDAAmhQBNCCQQioimKyKIqIJJCiMKQgAKJoQQAFE0IQgAKIwpCAAgiogAIJkITAEIQmQQApQTFBAEhRRFMhmAAmAUATAKDsbCAnCACYIJYzU4ShM1BDGARURQSyKIqBAiAJlFECIooogRFFFEwIooogCKKKIACkIqIAWEExQQAECioUwFISpkEDIFFFEEMxAE4CjQmhSdQEzVEQgQwTNShOEEsITJUyCWQBMoogkiV7w0S4gAcSmXmv0u55UY1uEpOjvATUIJB0GwaOt56eaA+5uM3+kvA0HFjS+s5u/cNaWg8tbiAfSVy9bt3j8YSMEzu28mBpf/AN732/8AEBea6PDPmvY+xVGnRwNJzaTqjntD3aIsX3guJAFuEz5LPLJxXBGF7y56OWq5/nWFf31R5qNO7Xhj2R0bBb1C9K7F9p2Y+h3rRpew6Xs/K6JtzB4Fao4xlUOmk5mgT4tJEdQVwOQ5z9Tx769Fp7qqdLmugA3m0ceI9VnizOVqSN54tWqfD+T3RBUYHFtqsbUYbOAKyF0IzaadMCiKCYiKKKIABQRKCAAoVECgYClTJUwIigigzfZQEwCATBQdTDCMKIhBIE7UIRCACiEEUCHUQBRTJIvJO1FI4jFVKm7YIb/0s/p916pjnxSeeTT+i86xNUNkEXDT5RJn5Ll8jI40kdGGCabZxuHyCXFjzAL3N8pDQ7912WRYLGHACng6wZoJbLmzDZO3I+a5epmDu+Lf+YXD1aQup+jzPnMbVpPH3XE/uspSlw2OOONNRRt8qy84ajUOKqtIeBqLzOlob4pcQN7nZee9pqGpxbh6oqU8No0gBre7ZElsQC48STey9KzjNaTabqrqZqbQxrS+XTYwAeN5iy86zjEuFV1QtdFRviJo1qQB3F6jG6uqePZvYqWNNas9L+j4k4KmSdx+ll06476LsVrwLRxYXNPoZHwK7Bdkejnyu5BQKKCoyIoogUxgKCJQQBEFCggAFBQoIHQQooFEyHEpBTgqkFO0qDqcS4Jgq2lWBBmyKIqIAiIQRQAUyVSUCNR2px7aWHdqIl4IA4noP7uvM6mb0nF1OsSHEeFzbnVbhxggLovpExZZUZVFxRDgR1E/qAJ4alw+SZc+tVFeq0nWdotcHT0vEDgFy5Iqbb+DohsqhFc9s2GCxOGeTTqWf+F20zwk8D8CVsvAwlzaLmu1APIPhcIkkjgbHZY+G7KvrVjRYQCA54LiBbVJ858UW5dVsO0eX4jBstL6b2sl5F2uaIh3kRInzWbwuUbj0dKhXur+PcTLM7pHUypU0kSCHGCCFy3a19MSaWIdU1Whzi6J3gzyVmNyXvTrnS5wB8YI9zsRxnlzXK4inBA8vmQtcOON2mcfleROMXGuzu/opzo0q3cE+CqRvwdMAj3HsvZwvmrJq7m4ijo8MVGC3m4NJPoSvpRmy6Uc8ZbQX24GUQlSUwIgSpKCAIgogmOiIFQlBA6AgiUEDCEUAogh9mOAnCATAKDqsZqsaqmqxqZnIdFQIoIBCiKMIAVU4zECmwvcbASryFyP0hYg/V+6Y8Ne+DcgeEOGoyfKVM5UjTHHaRyeLa7Msf8AV6JtEkukhrBBdUc3jcNAbxJBNt+9oZE2k8UqZgU6QDTPiLnHxPJ58fVYf0aZEKFB2IcBrxBBBF/sWiGAeRu71C6jF4MVLklpa4OBabyNpPLmEoY6iinl1yNexrMDkGHZWY9rNLqcwZMmZ48jMrcYl7PuuFja4sfknqU58uiqqUXRGqRyeAR8FqlRlPI8jTkzkM1yMUftcIywcHGk3lBB7vlvOn25Hy7tDkbg81u9YWzAADWvawGA0sbaRt/beyZmXMBGw8rx0PJeO9s6ums17LDFUWPd51Guc0nr4RKmWKvqiaZqeJSnyajL6YdXptbJDqjADsbvABX0kF824Gn4dY3YZm8Aei9/7NVnvwtJ9WNTmg2n7p2nzUp80Zxj/bs2iCiCsVBlCVECUAQlAlBBAySpKCiAASgoomMYOUSSogzfYAmAShO1QdDCmalCIQSy0IpQmCZDGUUQJQIw83xndUi+02AB5kwF5j2jecYW6XHVUqigHEw29nQOQJv0XT57mAdVd9q3w+Fom0wJJ9Z9wquzeVPq1+9cwFrdTQ4xYg/haLD+VybPJlr2R6GLHGELl/PsdlkFDu8NRp7aKVNvswBZz0RyKV3l8V3HmN3Kwqup6joi6pG7SOniHwuqjWabAieWx9t0wSZpM6DokOnrAP7H1Xl3bLCB+HY4Nh1E1eujvLjpBn0XrmNpF0xJ6saf2K4LtPl7tel7YZVBp2BaJfTqA/JUuVR2QSnjcGcFTwzqYpbgYtgaZ/KXxI8tOkz5le+5SwNoUmj8NNg9A0BeNdjqoqVqbazHVKGGpEOlgPd67HVFyySYO4nyleuZPR0NLGvL6bdOgkg+Eid+O4uuddilFaWjZoIEpZVGFDSgShKEpjoMoShKEoHQSUCUCUJQOgoIEoSgB0EkqIMn2WBEKAJoUmxEVEUCGanCRqcBMlhCxsyxrKVNz6jg0NBNyBw2WTC0+b5WyoHAiS9wdET4gI9iBBSk2lwViUXJbdHCV8AKgZ4tGoAudEXPK9gTxJvC9IyHLGYai1lK4iZJcJJ4wZQy3KWgmo9o1F0gACBaJA4W+Z4rameDR6lLDjUEa+T5KmlCPXuUVq9QbU2uHLUAfiIVLMUSYdSeyfzaHCerXGPVZOl/MdGj5rGxOE1Dx1NI5zBWxzR16Zex/P3UqtncAjzWvZjGau7D5MWJ4/ystrj+E35HY9ExyxuJi1sKzlHQkD2C03aHLQ+kdMBzfE08e8aZH7eq3j64B8bCPMXCoxFaiSC51m3jzQjWDmmnycT2WyXu6VTE0Qe9NV7oBIDqJcR3ZANx4T5gj367s81rcOxjTJa0SDYh3ERwH7JaOBbTBDXltSq5zwKVoDjqMsILZNzccd1iUq+JY6S1tRhEtqMaRLTH3gD4TZRpyaOWyo3xKUlYlLFl24HoratYNaXnYfMwk1Rlq+i2UCVTh8S15hsyPwkeKOcckcVWFMtD7F9mggjUeQPNTsqsK5r3LCUCUJSkplUMShKWUCUBQ0oShKEphQZUSEqIMmuTNRURUlERARRQKyBOEoTBNEsKalTkylV9LZNIiTpFiBKgVFYONgY/VUQlZKrnGzbea19fCs3q1J6lZBwU71HeqqGV05lzp6mFSOjG4x/y/RGrzHHYWkwkgH9SeEeawspzqs+TUw1VlMfdquHDzG/rddXRwFJt2sbPMgEqjG4IvBDnwqtG68jFWtP82/2KKeYtIlzdQ5thYWKxbB4qdEAj8TrweYHNa6t2YxFJxqYbEGTcseNTD1H7QqMZjn06Tji6TqQaQDUALqcuIAuLi54hFL2NdMPcHx+df6N1kDS57qrr8JPxVmW1NNN7Qf8AE4gH0C1OX9osKGfZ4mm6ODXNPwVIzxl2sLYcS4mbkpdmMlu38HRCqNzHqAhiadKoyHAwCD4SRt0/RaGhjW7vqADlKtdjw8eGzR8UnG+BelzwdVldRsQ1oEDcRMW9VmVqbXCHAH5HmORXNYLM2sphocJJJceUWDd/XZXfWybl599uPwPwKiq4RxzwvZtGLg6lbXWp1mt+yqaWPYbPploc0ls+EwRKySVjYdzDqqsH+U6ib3IAYN/JoHpPFWlyk7UnXI5KEpC5TUgdDEoEpZQlAUNKiWVEGL7NkEwQATQgRAipCMJCAmBQhGECCCslgssZrbrKCpGcwpKjoEhpPkIn4kBMgVZKKfrjRuHjrTqR7gR8UBmFImO9ZPIuaD7FWlyVwBEEA9boKpBqOAaXiLDcRvwumdG5WE7LqJOruWTIMhrQZBkGyygEA0vYcGVhZu4hjQN3PHlMNcfkFmalpc9D31adNjg2Gvc6T+Yta39Hprsyy8RZTVoUnj7ajTdPOm0+hkEHdazEdkcBUmKDWReaJdSM8/AQPQhbWqKto7mJ2hwkCfhcew9cerWxAiGUjPEPA4AbRc7nfiro4VJrpnPVuxZaZw+IJj8Ne/8A7NA/RZWAy+sHBtUQI3G3uP78ttXzENIbVDqZIF3/AHZ2s4c/ONvRYr8WWmS6YI5/dO4M8f2SadcHf4/nTj9MuV/wx+2WGqVsI7D0GkuqljR+VrQ4OJceAgJOzGQNwlOCdb3wXONwCODQdhc+63BekL1geslxRaXoF6pL0utA9S/UpqVGtHWgWpdqU1KnUjqQFFupRVygmYNcm9BCMha4VCj3hSF6bNjqCIcFrhUKPeFAvSZsdYU1rX94Ue8KBekbGm+8LJWnbUIuFmUccNnD1GypGeTE+0ZZSkqFwNwZ6IKjIhSkolI4oGFRKEyAI1c7icxH1itJEN007kT4W6jx5vd7LoKlUMaXu2aC49AJP6LyPKcbXxNZ5pgM7xznkvlxBdJIABHPnCpdmWb8J3FTHta0kuBBEAO5xcbdVqTnbXVYpuD3Cwa2ZkeQNm334x5rIwnZ6mDOIc6uePeOaGddDYaOPNbCo9tMaaTGtEOs3S0aosIjb9lZxcexrXY0lpa9zSYMtLgS7iZ4D0WldjNEhr2vc5wAZTMhtM6iwTuCPuwZ2Gyzsyxzy0tYG6yDO0M2EvA6GG8feMXJcr0faVCXOkmXEkkn8R/vtYJSkkdHj+PLLKjf0nQ0A8AB7BQvVBqJe8WB9EoUX60Nao1qa0D1MgPTaljB6YPQLUyNSIcqA5MHIJ1L5USAqIOaXbNvoTNpzwWwLWttwPFJrAUtnP6zfSMQ0iOCLaR5LJdUHLdNTqjkiw9WVdGIaR5Jm0HHYLOdV/pTtIIkEJ2Q88vgwPqzuSDqB5LYE9Fj1MQNkWCyzfRQ2kRsmGIIOmZPI7/3dOK1zvda/ENL6jRBBbdrgRPS3DeR0SspSb/EPmWfUcOAa7w2dgNRJ6NAJXPH6Tcv1FrnVmwd3UnQfMRJj0WB2lyitqa00y91TU7U5+w1GATBkgR7hcziuxlRxmo+OQaLBDyKPYKLkrieh4Xt5l7yAMTE/wDEp1mfFzYW6w2a4eqJpV6b5/K9h+a8ZzbC9zVaO78LgJc6YN5gcocT7t4b7OllVN4aWO0ggTERaLQPktVyrMHkptM7vt1mjaeEfTY5pqVhoDZ/ASNZt/rI6kLm+y2GLBrs2ZJJIJ22kcLLVVckpMH+RxIBMQCfCOQP9sFl0czFP8AAaN6vicQOTG79dtuF07oiV5OInT5ljAylJMNIMuAMutsABYyegXP1MXUryKYNNggSQNZjz4DeYv03WAM0LzLWxvd0TwvI2TfWjNiff33UvJ8HXg/p/vk/Q2eGw7WAD7xF5OwJ3IHPz3Vzq/Nc5VxpDvE1w/2mbcboOrT4muJn/UEx0UOR6uOMIKoo6A4kc0zawOxXMAOjxO9IgfHf0RZqmxcDHCD80rLs6oFOwFazLHu06XWPP5rYaYuCR7pbGcptGQKZVow7uSrpvdE7n0ssuliHcQjYyllZX3BG4TBnks5jwTxtyBhZLKc2t6p2YvyGu0aoM8kVuhhmch8FE7Od51fRkFh5phTAF/krmtHEqFgSOfYq4KsH/Uj2VpImD8eKDQTtB91JSK0RT8/gro58FA3y/VAWU6LSqy1vlIWYR8Fj4jDNPE+5CBqSso7s779FuMLhdLQSPF+/BVZdRBcJ4CfVbKo3kqijHNlv6TFq4Vrmw5sj+7HgtNjckbfS652Dr+xC3L33VFTqm4p9kwlKPTOI7R9nmdxNasGuFx4ZaJgRzNt/4XAGs3DVDTNQOiCQwSWkFpA1GAdtxOw3XrWa5aHNMiWmBFiSeXRed5z2feyo4to942YBaPEB+Wxm37KoNxWqN9MeSalM15zQ1nHW0ACIF7wNzzO/8J3UqdzZpN581jDDugkgw20QBfle5VFLBOfVa1knVEt4xzg2Ut2elBwgqijaDDtcIa4HpaT+iQYOpDvC+GtLibGB/eC63J+yrWtHivxkC/Uc4st7hsna2bTq3nopsmfkxR5SzHQLukeY+BVjKIcQ8S3V5ug/z1Xe5r2KY9xq0x4t9BJhxJ5bLX18lLHaR4fKZA9ENlQzxl0zmBYwTq6iZB5ErLo0DMtg+Rif5W2ZlFSbDqdllUcpcSAS0R/qUmzT1EUYGiCLyPIrcUsM2LjkrMFlREeW/FbZuEaBBEpI58uVexq6eHaDAFuf/wBWWyiOAWZSwojb0n5q76sNwPZOjmeZGJoVlGiBe6uFK5MbqpzCD5Hrugm74MkPHL4hBVg+fwUVWYNcmWHjgg49U7WhEsSpl2kY8c1Y0EHgmkTCdoSQSkANBUdZOCAi4gCVRnZUTxTaZ/ZM1k7oObFkh2NRAaLBXfWHeR+CobvsiRwTsiSt8mUKk7pSwbiyoa6IVgqynZOtdAfTaSJvp2HnxKrdQaVHOlK4xtuUWVTKq+X03M0FrYmdhvz6rVV8kZMlgA4AgW9lumSbzdO7mlVlxySjwjDo0A0ARYBXupqOfO4VmpAW2VAkcFgYvC6nawLgRHBbMj4qGmkOMtXZg0aQ3iOibuGzMLILLpUD2dmOafIKAK9qgp3QPYpaSP4Thx5p3D+lI1niTFdh1yjFv3S6oMXVkygTQsDkojpUQQf/2Q==" alt="Slide Image" />
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="link-ct">
+                        <a href="https://www.usatoday.com/story/entertainment/music/2019/08/15/christian-rappers-you-need-know-including-chart-topper-nf/1987932001/"><img src="assets/link.png" alt="link"></a> 
+                      </div>
+                      <div class="swipe-header-stack">
+                        <h4>USA Today</h4>
+                        <h2>Christian rappers you need to know</h2>
+                      </div>
+                      <div class="overlay"></div>
+                        <img src="data:image/jpeg;base64,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" alt="Slide Image" />
+                    </div>
+
+                     <div class="swiper-slide">
+                      <div class="link-ct">
+                        <a href="https://girlsunited.essence.com/article/black-women-genre-bending-music/"><img src="assets/link.png" alt="link"></a> 
+                      </div>
+                      <div class="swipe-header-stack">
+                        <h4>Essence GU</h4>
+                        <h2>Black Women Bending Music</h2>
+                      </div>
+                      <div class="overlay"></div>
+                      <img src="https://cdn.rapzilla.com/wp-content/uploads/2021/09/23091000/omgitswande_242405945_875495640062305_2405940847554821347_n-e1632338335571.jpg" alt="Slide Image" />
+
+                    </div>
+
+                </div>
+                    <p> Swipe to explore accomplishments and press.</p>
+                </div>
+           
+          </div>
+
+
+    </div>
+  </body>
+  <script type="text/javascript">
+    $(function() {
+
+      var navbar = document.getElementById("nav");
+      var sticky = navbar.offsetTop;
+
+      function stickyNav() {
+        if ($(".site-container").offset().top <= sticky) {
+          navbar.classList.add("sticky")
+          {#  $(".nav-img-ct img").attr("src", "/assets/gems-log-purple.png");  }
+        } 
+        
+         if ($(".site-container").offset().top == 0 
+         ||  $(".site-container").offset().top >= sticky) {
+          navbar.classList.remove("sticky");
+          $(".nav-img-ct img").attr("src", "/assets/gems-logo.png");
+
+        }
+      }
+
+      function triggerPillarAnimation() {
+          if ($("body").offset().top > $(".gems-about-section").offset().top && !alreadAnimated) {
+              $(".back-pillar")
+                .animate({
+                  left: $(".pillar:eq(0)").position().left + 42
+                }, 1000)
+                .delay(2000)
+                .animate({
+                  left: $(".pillar:eq(1)").position().left + 42
+                }, 1000)
+                .delay(2000)
+                .animate({
+                  left: $(".pillar:eq(2)").position().left + 42
+                }, 1000)
+                .delay(2000)
+                .animate({
+                  left: "100%"
+                }, 1000);
+
+              var delay = 0;
+              for (var i = 0; i < 3; i++) {
+                  $(".pillar:eq(" + i +") > p")
+                    .delay(delay)
+                    .animate({color: "black"}, 1000)
+                    .delay(2000)
+                    .animate({color: "white"}, 1000)
+                    delay += 3000;
+              }
+              alreadAnimated = true;
+          }
+      }
+      let alreadAnimated = false;
+      $("body").on("scroll", function() {
+        {#  alert("he")  }
+            stickyNav();
+            triggerPillarAnimation();
+          });
+
+        var myInterval = ""; 
+          var width = 1;
+
+        function myTimer() {
+            var elem = document.getElementById("progressBar");
+              if (width >= 100) {
+                clearInterval(myInterval);
+                {#  document.location.href = "/free";  }
+                i = 0;
+              } else {
+                width++;
+                elem.style.width = width + "%";
+              }
+        }
+
+        function myStopFunction() {
+          width = 0;
+          {#  alert(myInterval);  }
+          clearInterval(myInterval);
+        }
+       
+
+      $(document).ready(() => {
+
+        var base = $(".grad-card:nth(1)").position().top;
+        var leftBase = $(".grad-card:nth(1)").offset().left;
+        {#  alert(leftBase);  }
+        var difference; 
+
+        {#  if (winderinnerWidth)  }
+        if (window.innerWidth <= 1440) {
+            difference = 3;
+        } else {
+            difference = 2;
+        }
+
+       
+       
+
+        $(".interesting-text-ct").css({top: base, left: leftBase / difference});
+        $(".interesting-text-ct").addClass("fadeIn");
+        
+        $(window).on("resize", function(){
+            var base = $(".grad-card:nth(1)").position().top;
+            var leftBase = $(".grad-card:nth(1)").offset().left;
+            $(".interesting-text-ct").css({top: base, left: leftBase / difference});
+        })
+
+        $(".explore-trigger-ct").on("mouseenter", function() {
+          $(".explore-trigger").html("Continue hovering...")
+          myInterval = setInterval(myTimer, 50);
+        })
+         $(".explore-trigger-ct").on("mouseleave", function(){
+            $(".explore-trigger").html(" Hover to explore"  )
+            i = 0;
+             $("#progressBar").css({width: "0px"});
+             myStopFunction();
+        })
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+        });
+       
+      })
+    })();
+  </script>
+</html>
+
