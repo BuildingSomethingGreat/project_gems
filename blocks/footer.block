@@ -1,0 +1,49 @@
+  <div class="gems-portal-section">
+        <div class="gems-portal-img-stack">
+          <img class="moveRight" src="/assets/gems-portal-top.png" alt="">
+          <img class="scaleUp" src="/assets/gems-portal-mid.png" alt="">
+          <img  class="leftyAnRotate" src="/assets/gems-portal-bottom.png" alt="">
+        </div>
+
+        <div class="gems-portal-text-stack">
+          <h3 class="tag">GEMS PORTAL</h3>
+          <h1>
+            <span class="stroke">A new</span><br>
+            <span class="stroke">way to</span> <br>
+            support
+          </h1>
+          <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+          aliquip ex ea commodo consequat.
+          </p>
+          <div class="action-btn">
+              <div class="action-img-ct">
+                <img src="/assets/stars.png" alt="">
+              </div>
+              <p>
+                Join Waitlist
+              </p>
+        </div>
+</div>
+
+ <div class="footer">
+    <div class="cont-background ">
+        <img class="things" src="/assets/gems-back.png" />  
+    </div>
+
+    <div class="connect-ct">
+        <div class="connect-text-ct">
+        <h1>Stay connected.</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+            tempor incididunt ut labore
+        </p>
+        </div>
+        <div class="action-input-ct">
+            <input type="email" name="email" placeholder="Enter email"/>
+            <input type="submit" name="submit" />
+        </div>
+    </div>
+</div>

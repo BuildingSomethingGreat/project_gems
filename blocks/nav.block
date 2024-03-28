@@ -1,0 +1,12 @@
+<div id="nav" class="nav-ct">
+        <div class="nav-img-ct">
+          <img src="/assets/gems-logo.png" alt="" />
+        </div>
+        <div class="menu-ct">
+          <li><a href="/free">About</a></li>
+          <li><a href="/free">Media</a></li>
+          <li><a href="/free">Legacy</a></li>
+          <div class="nav-divider"></div>
+          <li><a href="/free">GEMS Portal</a></li>
+        </div>
+</div>

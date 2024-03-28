@@ -17,99 +17,251 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.3/jquery.scrollTo.min.js" ></script>
           <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
    
-        {#  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>  }
-  
   </head>
-  <body class="gallery-body" id="{squarespace.page-id}" class="{squarespace.page-classes}">
-
-      <div id="nav" class="nav-ct">
-        <div class="nav-img-ct">
-          <img src="/assets/gems-logo.png" alt="" />
-        </div>
-        <div class="menu-ct">
-          <li><a href="/free">About</a></li>
-          <li><a href="/free">Media</a></li>
-          <li><a href="/free">Legacy</a></li>
-          <div class="nav-divider"></div>
-          <li><a href="/free">GEMS Portal</a></li>
-        </div>
-      </div>
+  <body class="about-body" id="{squarespace.page-id}" class="{squarespace.page-classes}">
+        {@|apply nav.block}
 
         <div class="site-container">
-            <div class="swipe-cont">
-                <h1 class="">
-                    TO BE A GEM <BR>
-                    IS TO STAND <BR>
-                    OUT
-                    <span >BRIGHTLY</span>
-                    </h1>
-                <div class="swiper Slider-container">
-                    <div class="swiper-wrapper">
-                       <div class="swiper-slide">
-                            <div class="overlay"></div>
-                            <img src="assets/student-1.jpeg" alt=""/>
-                        </div>
-                        
-                          <div class="swiper-slide">
-                            <div class="overlay"></div>
-                            <img src="assets/student-2.jpeg" alt=""/>
-                        </div>
+            <div class="splash-ct">
+                <h1 class="fadeUp">
+                  Oh, wait <br>
+                  until the <br>
+                  GEMS get <br>
+                  <span class="colorChange_about">together.</span>
+                </h1>
+                <p class="fadeUp">
+                     <b >
+                    Tap a photo to learn more about the
+                    board memebers.</b>
+                </p>
+                {#  <div class="demo-dot"></div>  }
+              
+            </div>
 
-                         <div class="swiper-slide">
-                            <div class="overlay"></div>
-                            <img src="assets/student-3.jpeg" alt=""/>
-                        </div>
-                        
-                          <div class="swiper-slide">
-                            <div class="overlay"></div>
-                            <img src="assets/student-4.jpeg" alt=""/>
-                        </div>
+              <div class="board-ct fadeUp">
+                  <div class="img-ct ">
+                    <img data-profile="1" class="fadeUp-delay-1" src="assets/board-1.png" />
+                  </div>
+                  <div class="img-ct" >
+                    <img data-profile="2" class="fadeUp-delay-2" src="assets/board-2.png" />
+                  </div>
+                  <div class="img-ct">
+                    <img data-profile="3"  class="fadeUp-delay-3" src="assets/board-3.png" />
+                  </div>
+                  <div class="img-ct">
+                    <img data-profile="4" class="fadeUp-delay-4" src="assets/board-4.png" />
+                  </div>
+                  <div class="img-ct">
+                    <img data-profile="5" class="fadeUp-delay-5" src="assets/board-5.png" />
+                  </div>
+            </div>
+            
+            <div class="members-ct">
+              <div data-profile-link="1" class="member hide">
+                      <div class="left">
+                          <h2>
+                          "Oh, <span class="stroke ">wait
+                        until the</span>
+                        GEMS get 
+                        together."
+                          </h2>
+                          <div class="img-ct">
+                            <img class="" src="assets/board-1-full.png" />
+                          </div>
+                      </div>
+                       <div class="right">
+                          <div class="profile-ct">
+                              <img src="assets/bio.png" alt=""/>
+                          </div>
+                          <div class="text-ct">
+                          <p>
+                              I have been educating students for 20 years and counseling individuals, 
+                              families, and groups for more than 10 years. I am extremely passionate 
+                              about helping others live joy filled lives. 
+                              <br>
+                              <br>
+                              My approach infuses compassion, relatability, and transparent dialogue 
+                              to guide her clients through a journey of self-reflection. I believe 
+                              that when we are honest with ourselves about who we are and how things 
+                              affect us, we can make the proper adjustments within the most important 
+                              areas of our lives. 
+                              <br>
+                              <br>
+                              I currently conduct individual and group counseling sessions, facilitate
+                                family sessions, work with couples on sex and intimacy, and implement fun 
+                                therapeutic interventions including art, music, play, movement, and 
+                                creative expression. 
+                                </p>
 
-                         <div class="swiper-slide">
-                            <div class="overlay"></div>
-                            <img src="assets/student-5.jpeg" alt=""/>
-                        </div>
-                        
-                          <div class="swiper-slide">
-                            <div class="overlay"></div>
-                            <img src="assets/student-6.jpeg" alt=""/>
-                        </div>
+                          </div>
+                      </div>
+              </div>
 
-                         <div class="swiper-slide">
-                            <div class="overlay"></div>
-                            <img src="assets/student-7.jpeg" alt=""/>
-                        </div>
-                        
-                          <div class="swiper-slide">
-                            <div class="overlay"></div>
-                            <img src="assets/student-8.jpeg" alt=""/>
-                        </div>
-
-                         <div class="swiper-slide">
-                            <div class="overlay"></div>
-                            <img src="assets/student-9.jpeg" alt=""/>
-                        </div>
-                        
-                          <div class="swiper-slide">
-                            <div class="overlay"></div>
-                            <img src="assets/student-10.jpeg" alt=""/>
-                        </div>
-
-                         <div class="swiper-slide">
-                            <div class="overlay"></div>
-                            <img src="assets/student-11.jpeg" alt=""/>
-                        </div>
-                        
-                          <div class="swiper-slide">
-                            <div class="overlay"></div>
-                            <img src="assets/student-12.jpeg" alt=""/>
-                        </div>
+              <div data-profile-link="2" class="member hide">
+                <div class="left">
+                    <h2>
+                    "Oh, <span class="stroke ">wait
+                  until the</span>
+                  GEMS get 
+                  together."
+                    </h2>
+                    <div class="img-ct">
+                      <img class="" src="assets/board-2-full.png" />
+                    </div>
+                </div>
+                  <div class="right">
+                    <div class="profile-ct">
+                        <img src="assets/bio.png" alt=""/>
+                    </div>
+                    <div class="text-ct">
+                    <p>
+                        I have been educating students for 20 years and counseling individuals, 
+                        families, and groups for more than 10 years. I am extremely passionate 
+                        about helping others live joy filled lives. 
+                        <br>
+                        <br>
+                        My approach infuses compassion, relatability, and transparent dialogue 
+                        to guide her clients through a journey of self-reflection. I believe 
+                        that when we are honest with ourselves about who we are and how things 
+                        affect us, we can make the proper adjustments within the most important 
+                        areas of our lives. 
+                        <br>
+                        <br>
+                        I currently conduct individual and group counseling sessions, facilitate
+                          family sessions, work with couples on sex and intimacy, and implement fun 
+                          therapeutic interventions including art, music, play, movement, and 
+                          creative expression. 
+                          </p>
 
                     </div>
-                    <p> Swipe to explore accomplishments and press.</p>
                 </div>
+              </div>
+
+              <div data-profile-link="3" class="member hide">
+                <div class="left">
+                    <h2>
+                    "Oh, <span class="stroke ">wait
+                  until the</span>
+                  GEMS get 
+                  together."
+                    </h2>
+                    <div class="img-ct">
+                      <img class="" src="assets/board-3-full.jpeg" />
+                    </div>
+                </div>
+                  <div class="right">
+                    <div class="profile-ct">
+                        <img src="assets/bio.png" alt=""/>
+                    </div>
+                    <div class="text-ct">
+                    <p>
+                        I have been educating students for 20 years and counseling individuals, 
+                        families, and groups for more than 10 years. I am extremely passionate 
+                        about helping others live joy filled lives. 
+                        <br>
+                        <br>
+                        My approach infuses compassion, relatability, and transparent dialogue 
+                        to guide her clients through a journey of self-reflection. I believe 
+                        that when we are honest with ourselves about who we are and how things 
+                        affect us, we can make the proper adjustments within the most important 
+                        areas of our lives. 
+                        <br>
+                        <br>
+                        I currently conduct individual and group counseling sessions, facilitate
+                          family sessions, work with couples on sex and intimacy, and implement fun 
+                          therapeutic interventions including art, music, play, movement, and 
+                          creative expression. 
+                          </p>
+
+                    </div>
+                </div>
+              </div>
+
+              <div data-profile-link="4" class="member hide">
+                <div class="left">
+                    <h2>
+                    "Oh, <span class="stroke ">wait
+                  until the</span>
+                  GEMS get 
+                  together."
+                    </h2>
+                    <div class="img-ct">
+                      <img class="" src="assets/board-4-full.png" />
+                    </div>
+                </div>
+                  <div class="right">
+                    <div class="profile-ct">
+                        <img src="assets/bio.png" alt=""/>
+                    </div>
+                    <div class="text-ct">
+                    <p>
+                        I have been educating students for 20 years and counseling individuals, 
+                        families, and groups for more than 10 years. I am extremely passionate 
+                        about helping others live joy filled lives. 
+                        <br>
+                        <br>
+                        My approach infuses compassion, relatability, and transparent dialogue 
+                        to guide her clients through a journey of self-reflection. I believe 
+                        that when we are honest with ourselves about who we are and how things 
+                        affect us, we can make the proper adjustments within the most important 
+                        areas of our lives. 
+                        <br>
+                        <br>
+                        I currently conduct individual and group counseling sessions, facilitate
+                          family sessions, work with couples on sex and intimacy, and implement fun 
+                          therapeutic interventions including art, music, play, movement, and 
+                          creative expression. 
+                          </p>
+
+                    </div>
+                </div>
+              </div>
+
+              <div data-profile-link="5" class="member hide">
+                <div class="left">
+                    <h2>
+                    "Oh, <span class="stroke ">wait
+                  until the</span>
+                  GEMS get 
+                  together."
+                    </h2>
+                    <div class="img-ct">
+                      <img class="" src="assets/board-5-full.png" />
+                    </div>
+                </div>
+                  <div class="right">
+                    <div class="profile-ct">
+                        <img src="assets/bio.png" alt=""/>
+                    </div>
+                    <div class="text-ct">
+                    <p>
+                        I have been educating students for 20 years and counseling individuals, 
+                        families, and groups for more than 10 years. I am extremely passionate 
+                        about helping others live joy filled lives. 
+                        <br>
+                        <br>
+                        My approach infuses compassion, relatability, and transparent dialogue 
+                        to guide her clients through a journey of self-reflection. I believe 
+                        that when we are honest with ourselves about who we are and how things 
+                        affect us, we can make the proper adjustments within the most important 
+                        areas of our lives. 
+                        <br>
+                        <br>
+                        I currently conduct individual and group counseling sessions, facilitate
+                          family sessions, work with couples on sex and intimacy, and implement fun 
+                          therapeutic interventions including art, music, play, movement, and 
+                          creative expression. 
+                          </p>
+
+                    </div>
+                </div>
+              </div>
             </div>
         </div>
+        
+
+        {@|apply footer.block}
+
   </body>
 
   <script type="text/javascript">
@@ -156,8 +308,26 @@
                     alreadAnimated = true;
                 }
 
-
+            
           });
+
+            $(".board-ct .img-ct img").each((index, el) => {
+                  $(el).on("click", () => {
+                      let link = $(el).data("profile");
+
+                      $(".splash-ct").fadeOut();
+
+                      if ($(".members-ct").find(`[data-profile-link=` + link + `]`).hasClass("hide")) {
+                           $(".members-ct").addClass("fadeUp");
+                          $(".members-ct .member").addClass("hide");
+                          $(".members-ct").find(`[data-profile-link=` + link + `]`).removeClass("hide");
+                          $(".members-ct").find(`[data-profile-link=` + link + `]`).addClass("show");
+                      } 
+
+                      {#  $(".members-ct").find(`[data-profile-link='2']`).removeClass("hide");
+                      $(".members-ct").find(`[data-profile-link='2']`).addClass("show");  }
+                  });
+              })
       })
     })();
   </script>
