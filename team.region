@@ -1,0 +1,423 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+    <!-- include system scripts, page meta, and header code injection -->
+    {squarespace-headers}
+    
+     <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.3/jquery.scrollTo.min.js" ></script>
+          <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+   
+  </head>
+  <body class="about-body" id="{squarespace.page-id}" class="{squarespace.page-classes}">
+        {@|apply nav.block}
+
+        <div class="site-container">
+            <div class="splash-ct">
+              
+                <div class="text-stack">
+                  <h3 class="fadeIn">
+                ABOUT</h3>
+                <h1 class="fadeIn">
+                   JUST WAIT UNTIL <br>
+                      THE GEMS GET <br>
+                    <span class="colorChange_about">TOGETHER.</span>
+                </h1>
+                    <p class="fadeUp">
+                          <b >
+                          Tap a photo to learn more about the
+                          board members.</b>
+                      </p>
+                    
+                </div>
+               <div class="members-ct">
+                   
+                    <div data-profile-link="1" class="member hide">
+                            <div class="left">
+                                <h2>
+                                "Oh, <span class="stroke ">wait
+                              until the</span>
+                              GEMS get 
+                              together."
+                                </h2>
+                                <div class="img-ct">
+                                  <img class="" src="assets/board-1-full.png" />
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div class="profile-ct">
+                                    <div class="profile-img">
+                                      <img src="assets/board-1.png" alt=""/>
+                                    </div>
+                                    <div class="text-ct">
+                                      <h2>Shera Capers</h2>
+                                      {#  <h4></h4>  }
+                                      <p>Proud MSU and CMU Graduate</p>
+                                    </div>
+                                </div>
+                                <div class="text-ct">
+                                      <p>
+                                    I'm a proud MSU and CMU Graduate!  
+                                    <br>
+                                    <br>
+
+                                      My primary and favorite full-time time job is being a mother to my teenage daughter who dances competitively.  Professionally I am. Labor Relations Manager with Stellantis (Chrysler). I am responsible for the Stamping Complex which encompasses two stamping plants ( Sterling and Warren Stamping) one of which is the largest in North America. I negotiate Collective Bargaining Agreements with the UAW as well as run the daily operations of the labor department at both plants.
+                                      <br>
+                                      <br>
+                                      REAL GEMS is an awesome program and from its inception, it was clear that Ms. Hill was meant to do this! I support “The Real Gems” because it is extremely important to share with young ladies the things I and others have learned personally and 
+                                      professionally in hopes it will allow you all to grow and go further than you ever imagined! 
+                                      </p>
+
+                                </div>
+                            </div>
+                    </div>
+
+                    <div data-profile-link="2" class="member hide">
+                      <div class="left">
+                          <h2>
+                          "Oh, <span class="stroke ">wait
+                        until the</span>
+                        GEMS get 
+                        together."
+                          </h2>
+                          <div class="img-ct">
+                            <img class="" src="assets/board-2-full.png" />
+                          </div>
+                      </div>
+                        <div class="right">
+                          <div class="profile-ct">
+                             <div class="profile-img">
+                                <img src="assets/board-2.png" alt=""/>
+                              </div>
+                              <div class="text-ct">
+                                <h2>Erica Lee</h2>
+                                <h4>Original GEM</h4>
+                                <p>Non-profit Organizer</p>
+                              </div>
+                          </div>
+                          <div class="text-ct">
+                          <p>
+                              I'm Erica Lee and Im a huge fan of 
+                              Juantonia Hills and The REAL GEMS.  I'm the 
+                              original REAL GEMS.  Ms. Hill, or Keisha as I 
+                              call her, took me under her wing as a freshman 
+                              in college.  She was a senior and my Resident
+                              Assistant.  I knew she was a young woman of 
+                              God and I was ready to get closer to Him.  So 
+                              <br> 
+                             <br> 
+                              I reached out to her and she's been showing 
+                              me the way ever since.  
+                              <br> 
+                               <br> 
+                                       After college, I was 
+                              an independent hip-hop artist, hip-hop promoter,
+                               event planner, radio host, and internet radio
+                                show creator.  I transitioned into gospel
+                                 rap and performed at many churches, 
+                                 Christian festivals, and Christian
+                                  conferences.  I worked for a Christian
+                                   nonprofit organization and taught in 
+                                   school and after-school abstinence 
+                                   programming.  I got married and became 
+                                   a stay-at-home mother and homeschooler.
+                                    As a homeschooler, I taught classes for
+                                     homeschool co-ops and I tutored children 
+                                     individually.  I love the youth and enjoy 
+                                     pouring into them. 
+                                     
+                                     <br> 
+                                       <br> 
+                                        The REAL GEMS is a 
+                                     great program to pour into young girls.
+                                       It is an excellent program to help 
+                                       them develop into great individuals 
+                                       and amazing contributors to society and
+                                        God's Kingdom.  
+                                       <br> 
+                                       <br> 
+                                        I'm honored to be a part of such a 
+                                        wonderful organization and I look 
+                                        forward to the marvelous next phase 
+                                        of The REAL GEMS.
+
+                                </p>
+
+                          </div>
+                      </div>
+                    </div>
+
+                    <div data-profile-link="3" class="member hide">
+                      <div class="left">
+                          <h2>
+                          "Oh, <span class="stroke ">wait
+                        until the</span>
+                        GEMS get 
+                        together."
+                          </h2>
+                          <div class="img-ct">
+                            <img class="" src="assets/board-3-full.jpeg" />
+                          </div>
+                      </div>
+                        <div class="right">
+                          <div class="profile-ct">
+                            <div class="profile-img">
+                                <img src="assets/board-3.png" alt=""/>
+                              </div>
+                              <div class="text-ct">
+                                <h2>Dr. Tiffany J. Hall</h2>
+                                <h4>LPC, EdD, CAMS-II, CGS</h4>
+                                <p></p>
+                              </div>
+                          </div>
+                          <div class="text-ct">
+                          <p>
+                              I have been educating students for 20 years and counseling individuals, families, and groups for more than 10 years. I am extremely passionate about helping others live joy filled lives. 
+                              <br><br>
+                              My approach infuses compassion, relatability, and transparent dialogue to guide her clients through a journey of self-reflection. I believe that when we are honest with ourselves about who we are and how things affect us, we can make the proper adjustments within the most important areas of our lives. 
+                              <br><br>
+
+                              I currently conduct individual and group counseling sessions, facilitate family sessions, work with couples on sex and intimacy, and implement fun therapeutic interventions including art, music, play, movement, and creative expression. 
+                              <br><br>
+
+                              My credentials include a BS in Education, MS in Family & Child Studies, EdD in Leadership and Management, and an MS in Clinical Mental Health Counseling. In addition to these degrees, I also serve as a Certified Anger Management Specialist and Certified Grief Specialist.
+                              <br><br>
+
+                              As a mother of four and educator, I adore children and I am passionate about them getting the love and support they need to be amazing humans. Since the inception of the REAL GEMS program, I have been super excited about the impact that it has had on young ladies and their matriculation into womanhood. Ms. Hill has created a life-changing portal for these young women that will serve them for the rest of their lives.
+
+                                </p>
+
+                          </div>
+                      </div>
+                    </div>
+
+                    <div data-profile-link="4" class="member hide">
+                      <div class="left">
+                          <h2>
+                          "Oh, <span class="stroke ">wait
+                        until the</span>
+                        GEMS get 
+                        together."
+                          </h2>
+                          <div class="img-ct">
+                            <img class="" src="assets/board-4-full.png" />
+                          </div>
+                      </div>
+                        <div class="right">
+                          <div class="profile-ct">
+                             <div class="profile-img">
+                                <img src="assets/board-4.png" alt=""/>
+                              </div>
+                              <div class="text-ct">
+                                <h2>Juantonia "Keshia" Hill</h2>
+                                <h4>Founder</h4>
+                                <p></p>
+                              </div>
+                          </div>
+                          <div class="text-ct">
+                          <p>
+                           I am a doctoral candidate, an educator, a 
+                           curriculum coach, a licensed counselor, and the 
+                           founder of REAL GEMS. Teaching and counseling are
+                            much more than just jobs...it's a calling for me. 
+                            Being able to see the value and potential in each 
+                            child is essential, and having the heart to put 
+                            the work in to help them reach their goals is 
+                            required. I don't mind putting the work in… I 
+                            have been blessed to receive Teacher of the 
+                            Year awards from my district, my county, and my
+                             regional area. I've also received a Founder's 
+                             Day award from the state of Michigan. I was
+                              selected by the DIA to be a part of their 
+                              DIA Away exhibit. 
+                              <br><br>
+                              I have accomplished some 
+                              really cool things, but my goal is to help my 
+                              GEMS do even greater. I started this group, 
+                              because I wanted girls to have a chance to
+                              achieve greater, learn to love themselves 
+                              , acknowledge their self-value, gain skills to
+                               self-regulate mentally and emotionally, and 
+                               obtain the resources necessary to set and 
+                               achieve a goal. The legacy created thus far
+                                has brought tears to my eyes because my 
+                                girls have grown into some of the most 
+                                amazing women I have ever met and I know
+                                there are more GEMS waiting to become…
+
+                              </p>
+
+                          </div>
+                      </div>
+                    </div>
+
+                    <div data-profile-link="5" class="member hide">
+                      <div class="left">
+                          <h2>
+                          "Oh, <span class="stroke ">wait
+                        until the</span>
+                        GEMS get 
+                        together."
+                          </h2>
+                          <div class="img-ct">
+                            <img class="" src="assets/board-5-full.png" />
+                          </div>
+                      </div>
+                        <div class="right">
+                          <div class="profile-ct">
+                              <div class="profile-img">
+                                <img src="assets/board-5.png" alt=""/>
+                              </div>
+                              <div class="text-ct">
+                                <h2>Ashley Collier</h2>
+                                <h4>Communications</h4>
+                                <p>University of Detroit Mercy Political Science and History</p>
+                              </div>
+                          </div>
+                          <div class="text-ct">
+                          <p>
+                             I am a resident of Southfield, Michigan. I studied Political Science and History at the University of Detroit Mercy while working as a Provider representative at Blue Cross Blue Shield of Michigan. I'm very passionate about politics and the reform of health care, so Blue Cross Blue Shield of Michigan was a natural fit.  I am currently an Analyst at Blue Cross Blue Shield of Michigan while deciding what my next career move will be. In my free time, I love reading. I have my Six Sigma Lean Green Belt and Black Belt certifications. I also like to shop for anything and volunteer for philanthropic causes such as REAL GEMS.
+                              <br><br>
+                              Ms. Hill and the REAL GEMS have worked to inspire young girls to be great while dealing with hard-hitting issues.  Since its inception, REAL GEMS has relentlessly provided values that are used as a stepping stone between adolescents and young adulthood.  Moreover, the guidance and support given to the organization and members by Hill is unmatched.  As a board member, I will assist in aggressively executing the goals and responsibilities of REAL GEMS.
+
+                                </p>
+
+                          </div>
+                      </div>
+                    </div>
+                    
+                </div>
+
+                <div class="board-ct fadeUp">
+                  
+                      <div class="img-ct ">
+                        <img data-profile="1" class="fadeUp-delay-1" src="assets/board-1.png" />
+                      </div>
+                      <div class="img-ct" >
+                        <img data-profile="2" class="fadeUp-delay-2" src="assets/board-2.png" />
+                      </div>
+                      <div class="img-ct">
+                        <img data-profile="3"  class="fadeUp-delay-3" src="assets/board-3.png" />
+                      </div>
+                      <div class="img-ct">
+                        <img data-profile="4" class="fadeUp-delay-4" src="assets/board-4.png" />
+                      </div>
+                      <div class="img-ct">
+                        <img data-profile="5" class="fadeUp-delay-5" src="assets/board-5.png" />
+                      </div>
+                       <div class="exit-ct hide">
+                        <img src="https://www.svgrepo.com/show/32011/close-button.svg" />
+                      </div>
+                </div>
+            </div>
+
+            
+            
+           
+        </div>
+        
+        {@|apply footer.block}
+
+  </body>
+
+  <script type="text/javascript">
+    (function() {
+
+      var navbar = document.getElementById("nav");
+      var sticky = navbar.offsetTop;
+
+      function stickyNav() {
+        if ($(".site-container").offset().top <= sticky) {
+          navbar.classList.add("sticky")
+          {#  $(".nav-img-ct img").attr("src", "/assets/gems-log-purple.png");  }
+        } 
+        
+         if ($(".site-container").offset().top == 0 
+         ||  $(".site-container").offset().top >= sticky) {
+          navbar.classList.remove("sticky");
+          $(".nav-img-ct img").attr("src", "/assets/gems-logo.png");
+        }
+      }
+
+      function scrollCueSwipper() {
+            $(".swipe-cont h1").addClass("fadeUpDim");
+            var tiemout = setTimeout(() => {
+                $(".swipe-cont .swiper").addClass("fadeUp");
+                $(".swipe-cont h1 span").addClass("colorChange");
+            }, 3000);
+        }
+
+      $(document).ready(() => {
+            var swiper = new Swiper('.Slider-container', {
+                effect: 'cards',
+                grabCursor: true,
+                centerdSlides: true,
+                loop: true,
+              });
+
+            let alreadAnimated = false;
+            $("body").on("scroll", function() {
+                stickyNav();
+
+                if (!alreadAnimated)  {
+                    scrollCueSwipper();
+                    alreadAnimated = true;
+                }
+
+            
+          });
+
+            $(".board-ct .img-ct img").each((index, el) => {
+                  $(el).on("click", () => {
+                      let link = $(el).data("profile");
+                   
+                      $(".text-stack").fadeOut();
+                    $(".board-ct").removeClass("moveUp");
+                      $(".board-ct").addClass("moveDown");
+                      
+                       
+
+                      if ($(".members-ct").find(`[data-profile-link=` + link + `]`).hasClass("hide")) {
+                          $(".board-ct .exit-ct").fadeIn();
+                          $(".board-ct .exit-ct").addClass("show");
+
+                           $(".members-ct").addClass("fadeUp");
+                           $(".members-ct").removeClass("fadeDown");
+                           
+                          $(".members-ct .member").addClass("hide");
+                          $(".members-ct").find(`[data-profile-link=` + link + `]`).removeClass("hide");
+                          $(".members-ct").find(`[data-profile-link=` + link + `]`).addClass("show");
+                      } 
+
+                      {#  $(".members-ct").find(`[data-profile-link='2']`).removeClass("hide");
+                      $(".members-ct").find(`[data-profile-link='2']`).addClass("show");  }
+                  });
+
+              })
+
+              $(".board-ct .exit-ct").on("click", () => {
+                    $(".text-stack").fadeIn();
+
+                    $(".board-ct .exit-ct").fadeOut();
+                    $(".members-ct").addClass("fadeDown");
+                    $(".members-ct").removeClass("fadeUp");
+
+
+                    $(".board-ct").removeClass("moveDown");
+                    $(".board-ct").addClass("moveUp");
+              })
+
+      })
+    })();
+  </script>
+</html>
+
