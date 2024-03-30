@@ -23,20 +23,24 @@
 
         <div class="site-container">
             <div class="splash-ct">
+              
                 <div class="text-stack">
-                    <h1 class="fadeUp">
-                      Oh, wait <br>
-                      until the <br>
-                      GEMS get <br>
-                      <span class="colorChange_about">together.</span>
-                    </h1>
+                  <h3 class="fadeIn">
+                ABOUT</h3>
+                <h1 class="fadeIn">
+                   JUST WAIT UNTIL <br>
+                      THE GEMS GET <br>
+                    <span class="colorChange_about">TOGETHER.</span>
+                </h1>
                     <p class="fadeUp">
-                        <b >
-                        Tap a photo to learn more about the
-                        board members.</b>
-                    </p>
+                          <b >
+                          Tap a photo to learn more about the
+                          board members.</b>
+                      </p>
+                    
                 </div>
                <div class="members-ct">
+                   
                     <div data-profile-link="1" class="member hide">
                             <div class="left">
                                 <h2>
@@ -70,7 +74,7 @@
                                       <br>
                                       <br>
                                       REAL GEMS is an awesome program and from its inception, it was clear that Ms. Hill was meant to do this! I support “The Real Gems” because it is extremely important to share with young ladies the things I and others have learned personally and 
-professionally in hopes it will allow you all to grow and go further than you ever imagined! 
+                                      professionally in hopes it will allow you all to grow and go further than you ever imagined! 
                                       </p>
 
                                 </div>
@@ -177,18 +181,18 @@ professionally in hopes it will allow you all to grow and go further than you ev
                           </div>
                           <div class="text-ct">
                           <p>
-                             I have been educating students for 20 years and counseling individuals, families, and groups for more than 10 years. I am extremely passionate about helping others live joy filled lives. 
-<br><br>
-My approach infuses compassion, relatability, and transparent dialogue to guide her clients through a journey of self-reflection. I believe that when we are honest with ourselves about who we are and how things affect us, we can make the proper adjustments within the most important areas of our lives. 
-<br><br>
+                              I have been educating students for 20 years and counseling individuals, families, and groups for more than 10 years. I am extremely passionate about helping others live joy filled lives. 
+                              <br><br>
+                              My approach infuses compassion, relatability, and transparent dialogue to guide her clients through a journey of self-reflection. I believe that when we are honest with ourselves about who we are and how things affect us, we can make the proper adjustments within the most important areas of our lives. 
+                              <br><br>
 
- I currently conduct individual and group counseling sessions, facilitate family sessions, work with couples on sex and intimacy, and implement fun therapeutic interventions including art, music, play, movement, and creative expression. 
-<br><br>
+                              I currently conduct individual and group counseling sessions, facilitate family sessions, work with couples on sex and intimacy, and implement fun therapeutic interventions including art, music, play, movement, and creative expression. 
+                              <br><br>
 
-My credentials include a BS in Education, MS in Family & Child Studies, EdD in Leadership and Management, and an MS in Clinical Mental Health Counseling. In addition to these degrees, I also serve as a Certified Anger Management Specialist and Certified Grief Specialist.
-<br><br>
+                              My credentials include a BS in Education, MS in Family & Child Studies, EdD in Leadership and Management, and an MS in Clinical Mental Health Counseling. In addition to these degrees, I also serve as a Certified Anger Management Specialist and Certified Grief Specialist.
+                              <br><br>
 
-As a mother of four and educator, I adore children and I am passionate about them getting the love and support they need to be amazing humans. Since the inception of the REAL GEMS program, I have been super excited about the impact that it has had on young ladies and their matriculation into womanhood. Ms. Hill has created a life-changing portal for these young women that will serve them for the rest of their lives.
+                              As a mother of four and educator, I adore children and I am passionate about them getting the love and support they need to be amazing humans. Since the inception of the REAL GEMS program, I have been super excited about the impact that it has had on young ladies and their matriculation into womanhood. Ms. Hill has created a life-changing portal for these young women that will serve them for the rest of their lives.
 
                                 </p>
 
@@ -282,17 +286,19 @@ As a mother of four and educator, I adore children and I am passionate about the
                           <div class="text-ct">
                           <p>
                              I am a resident of Southfield, Michigan. I studied Political Science and History at the University of Detroit Mercy while working as a Provider representative at Blue Cross Blue Shield of Michigan. I'm very passionate about politics and the reform of health care, so Blue Cross Blue Shield of Michigan was a natural fit.  I am currently an Analyst at Blue Cross Blue Shield of Michigan while deciding what my next career move will be. In my free time, I love reading. I have my Six Sigma Lean Green Belt and Black Belt certifications. I also like to shop for anything and volunteer for philanthropic causes such as REAL GEMS.
-<br><br>
-Ms. Hill and the REAL GEMS have worked to inspire young girls to be great while dealing with hard-hitting issues.  Since its inception, REAL GEMS has relentlessly provided values that are used as a stepping stone between adolescents and young adulthood.  Moreover, the guidance and support given to the organization and members by Hill is unmatched.  As a board member, I will assist in aggressively executing the goals and responsibilities of REAL GEMS.
+                              <br><br>
+                              Ms. Hill and the REAL GEMS have worked to inspire young girls to be great while dealing with hard-hitting issues.  Since its inception, REAL GEMS has relentlessly provided values that are used as a stepping stone between adolescents and young adulthood.  Moreover, the guidance and support given to the organization and members by Hill is unmatched.  As a board member, I will assist in aggressively executing the goals and responsibilities of REAL GEMS.
 
                                 </p>
 
                           </div>
                       </div>
                     </div>
+                    
                 </div>
 
                 <div class="board-ct fadeUp">
+                  
                       <div class="img-ct ">
                         <img data-profile="1" class="fadeUp-delay-1" src="assets/board-1.png" />
                       </div>
@@ -307,6 +313,9 @@ Ms. Hill and the REAL GEMS have worked to inspire young girls to be great while 
                       </div>
                       <div class="img-ct">
                         <img data-profile="5" class="fadeUp-delay-5" src="assets/board-5.png" />
+                      </div>
+                       <div class="exit-ct hide">
+                        <img src="https://www.svgrepo.com/show/32011/close-button.svg" />
                       </div>
                 </div>
             </div>
@@ -370,12 +379,20 @@ Ms. Hill and the REAL GEMS have worked to inspire young girls to be great while 
             $(".board-ct .img-ct img").each((index, el) => {
                   $(el).on("click", () => {
                       let link = $(el).data("profile");
-
+                   
                       $(".text-stack").fadeOut();
+                    $(".board-ct").removeClass("moveUp");
                       $(".board-ct").addClass("moveDown");
+                      
+                       
 
                       if ($(".members-ct").find(`[data-profile-link=` + link + `]`).hasClass("hide")) {
+                          $(".board-ct .exit-ct").fadeIn();
+                          $(".board-ct .exit-ct").addClass("show");
+
                            $(".members-ct").addClass("fadeUp");
+                           $(".members-ct").removeClass("fadeDown");
+                           
                           $(".members-ct .member").addClass("hide");
                           $(".members-ct").find(`[data-profile-link=` + link + `]`).removeClass("hide");
                           $(".members-ct").find(`[data-profile-link=` + link + `]`).addClass("show");
@@ -384,7 +401,21 @@ Ms. Hill and the REAL GEMS have worked to inspire young girls to be great while 
                       {#  $(".members-ct").find(`[data-profile-link='2']`).removeClass("hide");
                       $(".members-ct").find(`[data-profile-link='2']`).addClass("show");  }
                   });
+
               })
+
+              $(".board-ct .exit-ct").on("click", () => {
+                    $(".text-stack").fadeIn();
+
+                    $(".board-ct .exit-ct").fadeOut();
+                    $(".members-ct").addClass("fadeDown");
+                    $(".members-ct").removeClass("fadeUp");
+
+
+                    $(".board-ct").removeClass("moveDown");
+                    $(".board-ct").addClass("moveUp");
+              })
+
       })
     })();
   </script>
