@@ -26,13 +26,19 @@
 
         <div class="site-container">
             <div class="swipe-cont">
+                <h3 class="fadeIn">
+                Gallery</h3>
                 <h1 class="fadeIn">
                     TO BE A GEM <BR>
                     IS TO STAND <BR>
                     OUT
                     <span >BRIGHTLY</span>
                     </h1>
-                <div class="swiper Slider-container">
+              
+            </div>
+
+            <section class="swipe-section">
+              <div class="swiper Slider-container">
                     <div class="swiper-wrapper">
                        <div class="swiper-slide">
                             <div class="overlay"></div>
@@ -44,11 +50,6 @@
                             <img src="assets/student-2.jpeg" alt=""/>
                         </div>
 
-                         <div class="swiper-slide">
-                            <div class="overlay"></div>
-                            <img src="assets/student-3.jpeg" alt=""/>
-                        </div>
-                        
                           <div class="swiper-slide">
                             <div class="overlay"></div>
                             <img src="assets/student-4.jpeg" alt=""/>
@@ -95,9 +96,9 @@
                         </div>
 
                     </div>
-                    <p> Swipe to explore accomplishments and press.</p>
+                    <p> Swipe to explore GEMs experiences and photos.</p>
                 </div>
-            </div>
+            </section>
           {@|apply footer.block}
 
         </div>
@@ -123,11 +124,8 @@
       }
 
       function scrollCueSwipper() {
-            $(".swipe-cont h1").addClass("fadeUpDim");
-            var tiemout = setTimeout(() => {
-                $(".swipe-cont .swiper").addClass("fadeUp");
-                $(".swipe-cont h1 span").addClass("colorChange");
-            }, 3000);
+            $(".swipe-cont h1 span").addClass("colorChange");
+            $(".swipe-section .swiper").addClass("fadeUp");
         }
 
       $(document).ready(() => {
