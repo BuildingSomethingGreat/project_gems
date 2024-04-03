@@ -54,9 +54,15 @@
               <video loop autoplay muted playsinline>
                 <source src="assets/who-are-we.mp4" type="video/mp4">
               </video>
+             
               {#  <h2>Who Are We?</h2>
               <p>GEMS is an acronym for Girls Empowered to Maintain Success. REAL GEMS was created in an effort to build self-awareness, mental wellness, and character among girls at the middle school level. It is our endeavor to inspire and impact the “whole” person (mind, body, and soul) in order to better prepare them for life. GEMS will provide girls with opportunities for exposure to various cultural experiences, leadership opportunities, and tools for social-emotional health. With active participation, young ladies will improve their decision-making abilities, self-regulate, consider the outcome of actions, and become goal-oriented. This will all aid in their ability to plan, set goals, and follow them through until completion.</p>  }
             </section>
+             <button>
+                <p>
+                view transcript
+                </p>
+              </button>
             <div class="vertical-divider"></div>
             <section class="what-we-do">
               <div class="text-stack">
@@ -64,7 +70,7 @@
                   What we do. 
                 </h2>
                 <p>
-                  AS a GEM, you can expect to be
+                  As a R.E.A.L GEM, you can expect to be
                   involved in daily activities and community 
                   excurions.
                 </p>
@@ -73,23 +79,29 @@
               <div class="key-points">
                   <div class="key-point">
                   <img src="assets/empower.png" alt="">
-                  <h3>Empowerment Meetings</h3>
+                  <h3 style="color: #B89AB9;">Empowerment Meetings</h3>
                   <p>Weekly meetings where girls develop self-identity, build confidence and leadership, gain tools for mental wellness, and learn life application skills.</p>
                 </div>
                 <div class="key-point">
                   <img src="assets/culture.png" alt="">
 
-                  <h3>Community Service</h3>
-                  <p>Monthly activities and outings to build character through service learning projects, operate in the spirit of servitude, and contribute positively to the community.</p>
+                   <h3 style="color: #D07B83;">Community Service</h3>
+                  <p>Outings to build character through service learning projects, operate in the spirit of servitude, and contribute positively to the community.</p>
                 </div>
                 <div class="key-point">
                   <img src="assets/awareness.png" alt="">
-                  <h3>Cultural Awareness</h3>
-                  <p>Monthly outings broadening scope, increasing awareness, empowering for greater, and equipping with knowledge for cultural enlightenment.</p>
+                   <h3 style="color: #B062A8;">Cultural Awareness</h3>
+                  <p>Hands-on cultural experiences to equip the girls with diverse experiences.</p>
                 </div>
               </div>
+                {#  https://i.pinimg.com/originals/da/35/1f/da351f5d362be9249f11309dab48d545.gif  }
               {#  <h2>Who Are We?</h2>
               <p>GEMS is an acronym for Girls Empowered to Maintain Success. REAL GEMS was created in an effort to build self-awareness, mental wellness, and character among girls at the middle school level. It is our endeavor to inspire and impact the “whole” person (mind, body, and soul) in order to better prepare them for life. GEMS will provide girls with opportunities for exposure to various cultural experiences, leadership opportunities, and tools for social-emotional health. With active participation, young ladies will improve their decision-making abilities, self-regulate, consider the outcome of actions, and become goal-oriented. This will all aid in their ability to plan, set goals, and follow them through until completion.</p>  }
+            </section>
+            <div class="vertical-divider"></div>
+
+            <section class="facts">
+            
             </section>
             {#  <section class="facts">
               <h2>Quick Facts</h2>
