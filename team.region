@@ -19,6 +19,8 @@
    
   </head>
   <body class="team-body" id="{squarespace.page-id}" class="{squarespace.page-classes}">
+        {@|apply loader.block}
+
         {@|apply nav.block}
 
         <div class="site-container">
