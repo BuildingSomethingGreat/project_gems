@@ -13,6 +13,7 @@
   </head>
   <body class="home-body" id="{squarespace.page-id}" class="{squarespace.page-classes}">
 
+        {@|apply loader.block}
     {@|apply nav.block}
       
     <div class="site-container">
