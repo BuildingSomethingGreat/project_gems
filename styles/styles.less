@@ -2159,7 +2159,7 @@ button p {
 }
 
 .facts p {
-  color: gray;
+  // color: gray;
 }
 
 section {
@@ -2286,6 +2286,15 @@ ul {
 @keyframes moveIn_key2 {
   from {transform:  translateX(-200px) rotate(20deg)}
   to {transform: translateX(-0 ) rotate(0deg)}
+}
+
+.background {
+  animation: 1s backChange 1s forwards;
+}
+
+@keyframes backChange {
+  from {background-color: white; color: gray;}
+  to {background-color: black; color: white;}
 }
 
 

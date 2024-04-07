@@ -184,40 +184,6 @@ around them
                 </div>
               </div>
             </section>
-            {#  <section class="facts">
-              <h2>Quick Facts</h2>
-              <ul>
-                <li>REAL GEMS began building its family in 2003 with 12 girls and it has grown and impacted the lives of hundreds.</li>
-                <li>100% of REAL GEMS graduate high school and go on to build productive futures.</li>
-                <li>GEMS participate in community service projects monthly, because we believe in servant leadership.</li>
-                <li>100% of members demonstrate improved decision-making skills, heightened leadership ability, increased self-awareness and self-regulation, and improved academic performance.</li>
-                <li>REAL GEMS legacy is comprised of college graduates, business owners, and community leaders.</li>
-                <li>REAL GEMS is a Christian-based organization.</li>
-                <li>REAL GEMS uses a practical application of biblical principles.</li>
-                <li>GEMS participate in monthly field trips to allow for exposure and increased awareness to the world around them.</li>
-              </ul>
-            </section>
-            <section class="target-audience">
-              <h2>Target Audience</h2>
-              <p>The target audience for GEMS is middle school students, who possess great un-accessed potential. We are interested in girls who desire to become a positive leader and have high levels of dedication, but circumstances may cause them to deter. All GEMS must be able to display self-control and respect for authority figures. We aim to provide novel opportunities, tools for mental wellness, and experiences to compensate for deficits to create a better balance within students while building pre-teens, families, and communities. We believe each girl is already a precious gem. She only needs someone to help her true beauty shine and teach her to see it for herself!!!</p>
-            </section>
-            <section class="key-point">
-              <h2>What Do We Do?</h2>
-              <div class="key-points">
-                <div class="key-point">
-                  <h3>Empowerment Meetings</h3>
-                  <p>Weekly meetings where girls develop self-identity, build confidence and leadership, gain tools for mental wellness, and learn life application skills.</p>
-                </div>
-                <div class="key-point">
-                  <h3>Community Service</h3>
-                  <p>Monthly activities and outings to build character through service learning projects, operate in the spirit of servitude, and contribute positively to the community.</p>
-                </div>
-                <div class="key-point">
-                  <h3>Cultural Awareness</h3>
-                  <p>Monthly outings broadening scope, increasing awareness, empowering for greater, and equipping with knowledge for cultural enlightenment.</p>
-                </div>
-              </div>
-            </section>  }
           </main>
         </div>
       </div>
@@ -294,6 +260,19 @@ around them
             $("body").on("scroll", function() {
                 stickyNav();
                 animateKeyPoints();
+
+                    $(".facts .key-points .key-point").each((i, el)  => {
+                      var top_of_element = $(el).offset().top;
+                      var bottom_of_element = $(el).offset().top + $(this).outerHeight();
+                      var bottom_of_screen = $(window).scrollTop() + window.innerHeight;
+                      var top_of_screen = $(window).scrollTop();
+
+                      if((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element)){
+                         $(el).addClass("background")
+                      } else {
+                          {#  $('.custom-warning').hide();  }
+                      }
+                  })
            });
 
           {#  document.querySelector('video').playbackRate = .5;  }
