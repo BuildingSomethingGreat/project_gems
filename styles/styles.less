@@ -598,6 +598,26 @@ body:has(.explore-trigger-ct:hover)  .card-3 {
   }
 }
 
+.fadeInSoon {
+  animation: 1s fadeIn .5s forwards;
+} 
+
+.fadeOutSoon {
+  animation: 1s fadeOutSoon .5s forwards;
+} 
+
+@keyframes fadeOutSoon  {
+  to {
+    transform: translateY(50px);
+    opacity: 0
+}
+  from {
+    transform: translateY(0);
+
+      opacity: 1;
+  }
+}
+
 
 @keyframes card1_smallRotate_in {
   from {
@@ -1385,6 +1405,7 @@ padding: auto 2%;
 }
 
 .swipe-section {
+  position: relative;
   // background-color: gray;
   padding: 2rem 0;
 
@@ -1497,8 +1518,30 @@ padding: auto 2%;
   width: 200px;
   height: auto;
   border-radius: 18px;
-  overflow: hidden;
+  // overflow: hidden;
 }
+
+.swipe-section h1 {
+  font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    position: absolute;
+    top: 0; right: 0; left: 0; bottom: 0;
+    margin: 0 5%;
+    width: 45%;
+    height: fit-content;
+    font-size: 10em;
+    opacity: 0;
+    line-height: 120px;
+    transform: translatey(20px);
+    text-transform: uppercase;
+
+    color: transparent !important;
+    // -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: white;
+}
+
 
 .swipe-header-stack {
   position: absolute;
@@ -1866,7 +1909,6 @@ padding: auto 2%;
   from {opacity: 1; transform: translateY(500px);}
   to {opacity: 1;  transform: translateY(0);}
 }
-
 
 @keyframes fadeOut {
   from {opacity: 1; transform: translateY(0);}

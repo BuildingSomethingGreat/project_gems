@@ -40,6 +40,46 @@
             </div>
 
             <section class="swipe-section">
+                <h1 data-index="1" class="">
+                        "The GEMS are everything"
+                </h1>
+                <h1 data-index="2"  class="">
+                        "Wayyy <br> up!"
+                </h1>
+                <h1 data-index="3"  class="">
+                        "GEMS <br> are <br> FIRE!"
+                </h1>
+                   <h1 data-index="4" class="">
+                        "One word: Excitement"
+                </h1>
+                <h1 data-index="5"  class="">
+                        "We on the slopes!"
+                </h1>
+                <h1 data-index="6"  class="">
+                        "We excel because of the 
+                        GEMS"
+                </h1>
+                 <h1 data-index="7"  class="">
+                        "The greatness in me
+                        is unleashed"
+                </h1>
+                 <h1 data-index="8"  class="">
+                        "Boldness unlocked"
+                </h1>
+                 <h1 data-index="9"  class="">
+                        "On the way to the top"
+                </h1>
+                  <h1 data-index="10"  class="">
+                        "GEMS gave me the
+                        fundamentals"
+                </h1>
+                  <h1 data-index="11"  class="">
+                        "Top tier! Never the same"
+                </h1>
+                  <h1 data-index="0"  class="fadeInSoon">
+                        "The GEMS impact
+                        is undeniable."
+                </h1>
               <div class="swiper Slider-container">
                     <div class="swiper-wrapper">
                        <div class="swiper-slide">
@@ -48,6 +88,7 @@
                         </div>
                         
                           <div class="swiper-slide">
+                         
                             <div class="overlay"></div>
                             <img src="assets/student-2.jpeg" alt=""/>
                         </div>
@@ -136,7 +177,18 @@
                 grabCursor: true,
                 centerdSlides: true,
                 loop: true,
+                on: {
+                  slideChange: function() {
+                    var active = this.realIndex; 
+                    $(".swipe-section h1").fadeOut();
+                    $(".swipe-section h1").removeClass("fadeInSoon");
+                    $(".swipe-section h1[data-index='" + active +"']").fadeIn();
+                    $(".swipe-section h1[data-index='" + active +"']").addClass("fadeInSoon");
+
+                  }
+                }
               });
+
 
             let alreadAnimated = false;
             $("body").on("scroll", function() {
