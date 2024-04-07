@@ -11,9 +11,10 @@
  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js" ></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.3/jquery.scrollTo.min.js" ></script>
   </head>
-  <body class="home-body" id="{squarespace.page-id}" class="{squarespace.page-classes}">
 
+  <body class="home-body" id="{squarespace.page-id}" class="{squarespace.page-classes}">
         {@|apply loader.block}
+
     {@|apply nav.block}
       
     <div class="site-container">

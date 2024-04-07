@@ -81,13 +81,13 @@
                   <div class="key-point">
                   <img src="assets/empower.png" alt="">
                   <h3 style="color: #B89AB9;">Empowerment Meetings</h3>
-                  <p>Weekly meetings where girls develop self-identity, build confidence and leadership, gain tools for mental wellness, and learn life application skills.</p>
+                  <p>Weekly meetings where girls develop self-identity while building confidence and leadership.</p>
                 </div>
                 <div class="key-point">
                   <img src="assets/culture.png" alt="">
 
                    <h3 style="color: #D07B83;">Community Service</h3>
-                  <p>Outings to build character through service learning projects, operate in the spirit of servitude, and contribute positively to the community.</p>
+                  <p>Outings to build character through service learning projects and contributing positively to the community.</p>
                 </div>
                 <div class="key-point">
                   <img src="assets/awareness.png" alt="">
@@ -102,7 +102,87 @@
             <div class="vertical-divider"></div>
 
             <section class="facts">
-            
+                <div class="text-stack">
+                <h2>
+                 Facts. 
+                </h2>
+                <p>
+                  Explore important milestones and key points 
+                  in the R.E.A.L GEMS organization.
+                </p>
+              </div>
+             
+              <div class="key-points">
+                  <div class="key-point ">
+                  {#  <h2>2003</h2>  }
+                  <p>
+                   Began building its family in <b>2003 
+                   with 12 girls</b> and it has grown and 
+                   impacted the lives of hundreds.
+                  </p>
+                </div>
+                <div class="key-point">
+                <p>
+                100% of REAL GEMS <b>graduate high 
+                school</b> and go on to build productive futures
+</p>
+                </div>
+                <div class="key-point">
+                  <p>
+GEMS participate in community service 
+projects monthly, because we believe in <b>servant leadership</b>
+
+                  </p>
+                </div>
+                <div  class="key-point">
+                  <p>
+100% of members demonstrate improved 
+decision-making skills, heightened leadership 
+ability, increased self-awareness and self-regulation, 
+and improved academic performance
+
+                  </p>
+                </div>
+                <div  class="key-point">
+                  <p>
+REAL GEMS legacy is comprised of college 
+graduates, business owners, and community leaders
+
+                  </p>
+                </div>
+                <div  class="key-point">
+                  <p>
+REAL GEMS is a Christian-based organization
+
+                  </p>
+                </div>
+                <div  class="key-point">
+                  <p>
+REAL GEMS uses a practical 
+application of biblical principles
+
+                  </p>
+                </div>
+                <div  class="key-point">
+                  <p>
+100% of members demonstrate improved 
+decision-making skills, heightened 
+leadership ability, increased self-awareness
+ and self-regulation, and improved
+  academic performance
+
+                  </p>
+                </div>
+                <div  class="key-point">
+                  <p>
+GEMS participate in monthly field 
+trips to allow for exposure and 
+increased awareness to the world 
+around them
+
+                  </p>
+                </div>
+              </div>
             </section>
             {#  <section class="facts">
               <h2>Quick Facts</h2>
@@ -174,6 +254,33 @@
             }, 3000);
         }
 
+        function isElementInViewport(elem) {
+            var $elem = $(elem);
+
+            var scrollElem = ((navigator.userAgent.toLowerCase().indexOf('webkit') != -1) ? 'body' : 'html');
+            var viewportTop = $(scrollElem).scrollTop();
+            var viewportBottom = viewportTop + $(window).height();
+
+            var elemTop = Math.round( $elem.offset().top );
+            var elemBottom = elemTop + $elem.height();
+
+            return ((elemTop < viewportBottom) && (elemBottom > viewportTop));
+        }
+
+         function animateKeyPoints() {
+              var $elem = $('.what-we-do .key-points p');
+              var $animateEl = $('.what-we-do .key-points .key-point:nth-child(1)');
+              var $animateEl2 = $('.what-we-do .key-points .key-point:nth-child(3)');
+              
+              if (isElementInViewport($elem)) {
+                  $animateEl.addClass('moveIn_key1');
+                  $animateEl2.addClass('moveIn_key2');
+              } else {
+                  {#  $elem.removeClass('start');  }
+              }
+        }
+
+
       $(document).ready(() => {
             var swiper = new Swiper('.Slider-container', {
                 effect: 'cards',
@@ -183,13 +290,11 @@
               });
 
             let alreadAnimated = false;
+
             $("body").on("scroll", function() {
                 stickyNav();
-
-               
-
-            
-          });
+                animateKeyPoints();
+           });
 
           {#  document.querySelector('video').playbackRate = .5;  }
 
