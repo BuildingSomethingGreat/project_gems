@@ -107,27 +107,6 @@
                 </h1>
             </div>
             <div class="about-ct">
-              {#  <div class="bio-outer-ct">
-                <img src="/assets/mshill.png" />
-                <div class="bio-overlay"></div>
-                <p>
-                 REAL GEMS was created in an effort to 
-                 build self-awareness, mental wellness, 
-                 and character among girls at the middle 
-                 school level. It is our endeavor to inspire 
-                 and impact the "whole" person (mind, body, and soul) 
-                 in order to better prepare them for life. GEMS will 
-                 provide girls with opportunities for exposure to 
-                 various cultural experiences, leadership 
-                 opportunities, and tools for social-emotional 
-                 health. With active participation, young ladies
-                 will improve their decision-making abilities, 
-                 self-regulate, consider the outcome of actions, 
-                 and become goal-oriented. This will all aid in 
-                 their ability to plan, set goals, and follow them 
-                 through until completion.
-                </p>
-              </div>  }
               <p>
                  &nbsp;&nbsp;&nbsp;&nbsp;
                  The <b>REAL GEMS</b> was created in an effort to 
@@ -156,6 +135,15 @@
                     <h4>FOUNDER</h4>
                   </div>
                 </div>
+
+                 <div class="action-btn">
+                      <div class="action-img-ct">
+                        <img src="/assets/team.png" alt="">
+                      </div>
+                      <p>
+                     Meet the team
+                      </p>
+                  </div>
             </div>
           </div>
        
@@ -214,7 +202,7 @@
 
           <div class="action-btn">
               <div class="action-img-ct">
-                <img src="/assets/stars.png" alt="">
+                <img src="/assets/book.png" alt="">
               </div>
               <p>
                Start reading now 

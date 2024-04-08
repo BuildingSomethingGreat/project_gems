@@ -1,6 +1,14 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,700&display=swap');
 
+// @media screen and (min-width: 1501px) {
+//   body {
+//       border-radius: 20px;
+//       margin: 4% auto;
+//       box-shadow: 2px 7px 10px 2px rgba(0,0,0,.15);
+//   }
+// }
+
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
   margin: 0;
   padding: 0;
@@ -65,10 +73,12 @@ table {
 }
 html,
 body {
-  margin: 0px;
+  // margin: auto;
   height: 100%;
   overflow-x: hidden;
   overflow-y: auto;
+  
+  // max-width: 1500px !important;
 
   background: #a91656;
   background: linear-gradient(45deg, #a91656, #CF1293);
@@ -257,8 +267,7 @@ li a {
 .things {
 
   animation: the-animation linear;
-  // animation-timeline: view();
-  // -webkit-animation-timeline: view();
+  animation-timeline: view();
   animation-iteration-count: 1;
 }
 
@@ -754,7 +763,7 @@ body:has(.explore-trigger-ct:hover)  .card-3 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  height: 65%;
+  height: 70%;
   background-color: white;
   border-radius: 20px 20px 0 0;
   padding: 0 4%;
@@ -842,6 +851,12 @@ body:has(.explore-trigger-ct:hover)  .card-3 {
   overflow: hidden;
   border-radius: 20px;
   overflow: hidden;
+}
+
+.about-ct .action-btn {
+  margin: 5% 0;
+  background-color: black;
+  padding: 1.5rem 1rem;
 }
 
 .founder-ct {
@@ -1060,7 +1075,8 @@ padding: auto 2%;
      margin: 10% 0;
 }
 .gems-archive-section .text-stack .action-btn {
-  width: 400px;
+  width: 300px;
+  height: 100px;
   text-align: left !important;
   // height: 50px;
   border-radius: 50px;
@@ -1191,7 +1207,8 @@ padding: auto 2%;
   margin: 5% 0;
 }
  .action-btn {
-  width:400px;
+  width: 300px;
+  height: 100px;
   // height: 50px;
   border-radius: 50px;
   background-color:#1d94ce;
@@ -1212,7 +1229,7 @@ padding: auto 2%;
 
 .action-btn .action-img-ct {
   display: table;
-  width: 30px;
+  width: 15px;
   height: auto;
 }
 .action-btn .action-img-ct img{
@@ -2085,7 +2102,6 @@ header h1 {
   position: relative;
   border: 1px solid black;
   height: auto;
-  padding-bottom: 10%;
   background-color: white;
   display: flex;
   align-items: center;
@@ -2388,5 +2404,109 @@ ul {
 @keyframes backChange {
   from {background-color: white; color: gray;}
   to {background-color: black; color: white;}
+}
+
+.gem-call-ct {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  overflow: hidden;
+  background-color: white;
+  min-height: 600px;
+  width: 100%;
+
+  margin-top: -3% !important;
+
+}
+.gem-call-ct .gem-gif {
+  position: absolute;
+  z-index: 1;
+  width: 300px;
+  height: auto;
+}
+
+.gem-call-ct .gem-gif:nth-child(1) {
+  top: 20%; 
+  left: 5%;
+  transform: rotate(-20deg);
+}
+
+.gem-call-ct .gem-gif:nth-child(2) {
+  bottom: 10%; 
+  right: 10%;
+  transform: rotate(10deg);
+}
+
+.gem-call {
+  z-index: 2;
+  width: 60%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  // height: 400px;
+
+  padding: 3rem 2rem;
+
+  margin: 10% auto;
+
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+
+
+  border-radius: 30px;
+  background-color: white;
+}
+
+.gem-call .text-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  width: 70%;
+  margin-bottom: 5%;
+}
+
+.gem-call .text-stack  h3 {
+  text-align: left;
+  width: 100%;
+  color: rgba(89, 8, 73, 0.6);
+  font-weight: bold;
+  letter-spacing: 5px;
+  font-size: 1.5em;
+  padding-left: 3%;
+}
+
+.gem-call .text-stack h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-style: italic;
+
+  position: relative;
+
+  margin: 2% auto;
+  width: fit-content;
+  height: fit-content;
+  font-size: 6em;
+  color: #000000;
+  opacity: 1;
+  line-height: 80px;
+  transform: translateY(20px);
+}
+
+.gem-call .text-stack p {
+  margin: 5% auto;
+  font-weight: bold;
+  opacity: .3;
+  line-height: 25px;
+}
+
+.gem-call .action-btn {
+  background-color: #682A7B !important;
 }
 
