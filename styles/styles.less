@@ -1457,7 +1457,7 @@ padding: auto 2%;
 }
 
 
-.swiper {
+.gallery-body .swiper {
   position: absolute;
   opacity: 0;
   top: 0;
@@ -1467,7 +1467,7 @@ padding: auto 2%;
 
 }
 
-.swiper img {
+.gallery-body .swiper img {
   width: 100%;
   height: auto;
 }
@@ -1490,7 +1490,7 @@ padding: auto 2%;
 }
 
 
-.swiper-slide .overlay {
+.gallery-body .swiper-slide .overlay {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -1503,7 +1503,7 @@ padding: auto 2%;
   z-index: 1;
 }
 
-.swiper p {
+.gallery-body .swiper p {
   color: white;
   font-weight: bold;
   text-align: center;
@@ -1512,7 +1512,7 @@ padding: auto 2%;
 }
 
 
-.swiper-slide {
+.gallery-body .swiper-slide {
   position: relative;
   border-radius: 18px;
   width: 200px;
@@ -2197,7 +2197,7 @@ button p {
 
 .facts {
   background-color: white;
-
+overflow: hidden;
 }
 
 .facts p {
@@ -2230,18 +2230,58 @@ ul {
   justify-content: space-between;
 }
 
+.facts .swiper {
+  width: 100%;
+  height: auto;
+  padding: 1rem 2rem;
+}
 
+.facts .swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  height: 300px;
+  background: #ffffff;
+  border: 1px solid gray;
+  color: gray;
+  border-radius: 20px;
+  margin: auto auto;
+  padding: 1rem 2rem;
+  overflow: hidden;
+
+}
+
+.facts .swiper-slide h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  font-family: 'Times New Roman', Times, serif;
+  color: rgba(0,0,0,.5);
+  opacity: .1 !important;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 15em;
+  
+  z-index: 1;
+}
 
 .facts .key-points {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  margin: auto;
+  width: 95%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  border: 1px solid;
 }
 
 .facts .key-points .key-point {
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
   align-items: center;
 
@@ -2256,9 +2296,6 @@ ul {
   transform: translateX(-200px) rotate(20deg);;
 }
 
-.facts .key-points .key-point p {
-  margin: auto;
-}
 
 .facts .text-stack {
   width: 80%;
@@ -2310,6 +2347,15 @@ ul {
   line-height: 20px;
 }
 
+.swiper-slide p {
+  text-align: center;
+  margin-bottom: 0;
+  line-height: 20px;
+  z-index: 2;
+  color: black;
+
+}
+
 
 .moveIn_key1 {
   animation: 2s moveIn_key1 .5s forwards;
@@ -2339,33 +2385,3 @@ ul {
   to {background-color: black; color: white;}
 }
 
-
-
-// .member .right .profile-ct img {
-//   margin: 0;
-//   width: auto;
-//   height: 100px;
-// }
-
-
-
-// .board-ct .img-ct:nth-child(1) {
-//   top: -100px; 
-// }
-// .board-ct .img-ct:nth-child(2) {
-//   top: -58px;
-//   left: -100px;
-// }
-
-// .board-ct .img-ct:nth-child(3) {
-//   top: 28px;
-//   left: -65px;
-
-// }
-// .board-ct .img-ct:nth-child(4) {
-//   top: -51px;
-//   left: 114px;
-// }
-// .board-ct .img-ct:nth-child(5) {
-//   top: 36px;
-//   left: 50px;

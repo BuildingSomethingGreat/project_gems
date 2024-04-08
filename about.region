@@ -95,16 +95,13 @@
                   <p>Hands-on cultural experiences to equip the girls with diverse experiences.</p>
                 </div>
               </div>
-                {#  https://i.pinimg.com/originals/da/35/1f/da351f5d362be9249f11309dab48d545.gif  }
-              {#  <h2>Who Are We?</h2>
-              <p>GEMS is an acronym for Girls Empowered to Maintain Success. REAL GEMS was created in an effort to build self-awareness, mental wellness, and character among girls at the middle school level. It is our endeavor to inspire and impact the “whole” person (mind, body, and soul) in order to better prepare them for life. GEMS will provide girls with opportunities for exposure to various cultural experiences, leadership opportunities, and tools for social-emotional health. With active participation, young ladies will improve their decision-making abilities, self-regulate, consider the outcome of actions, and become goal-oriented. This will all aid in their ability to plan, set goals, and follow them through until completion.</p>  }
             </section>
             <div class="vertical-divider"></div>
 
             <section class="facts">
                 <div class="text-stack">
                 <h2>
-                 Facts. 
+                 Did you know? 
                 </h2>
                 <p>
                   Explore important milestones and key points 
@@ -112,76 +109,134 @@
                 </p>
               </div>
              
-              <div class="key-points">
-                  <div class="key-point ">
-                  {#  <h2>2003</h2>  }
-                  <p>
-                   Began building its family in <b>2003 
-                   with 12 girls</b> and it has grown and 
-                   impacted the lives of hundreds.
-                  </p>
-                </div>
-                <div class="key-point">
-                <p>
-                100% of REAL GEMS <b>graduate high 
-                school</b> and go on to build productive futures
-</p>
-                </div>
-                <div class="key-point">
-                  <p>
-GEMS participate in community service 
-projects monthly, because we believe in <b>servant leadership</b>
+              <div class="card-cont swiper">
+                    <div class="swiper-wrapper">
+                                            
+                        <div class="swiper-slide ">
+                          <h1>1</h1>
+                          <p>
+                          Began building its family in <b>2003 
+                          with 12 girls</b> and it has grown and 
+                          impacted the lives of hundreds.
+                          </p>
+                        </div>
+                        <div class="swiper-slide">
+                          <h1>2</h1>
 
-                  </p>
-                </div>
-                <div  class="key-point">
-                  <p>
-100% of members demonstrate improved 
-decision-making skills, heightened leadership 
-ability, increased self-awareness and self-regulation, 
-and improved academic performance
+                        <p>
+                        100% of REAL GEMS <b>graduate high 
+                        school</b> and go on to build productive futures
+                        </p>
+                        </div>
+                        <div class="swiper-slide">
+                          <h1>3</h1>
 
-                  </p>
-                </div>
-                <div  class="key-point">
-                  <p>
-REAL GEMS legacy is comprised of college 
-graduates, business owners, and community leaders
+                          <p>
+                        GEMS participate in community service 
+                        projects monthly, because we believe in <b>servant leadership</b>
 
-                  </p>
-                </div>
-                <div  class="key-point">
-                  <p>
-REAL GEMS is a Christian-based organization
+                          </p>
+                        </div>
+                        <div  class="swiper-slide">
+                          <h1>4</h1>
 
-                  </p>
-                </div>
-                <div  class="key-point">
-                  <p>
-REAL GEMS uses a practical 
-application of biblical principles
+                          <p>
+                        100% of members demonstrate improved 
+                        decision-making skills, heightened leadership 
+                        ability, increased self-awareness and self-regulation, 
+                        and improved academic performance
 
-                  </p>
-                </div>
-                <div  class="key-point">
-                  <p>
-100% of members demonstrate improved 
-decision-making skills, heightened 
-leadership ability, increased self-awareness
- and self-regulation, and improved
-  academic performance
+                          </p>
+                        </div>
+                        <div  class="swiper-slide">
+                          <h1>5</h1>
+                          <p>
+                        REAL GEMS legacy is comprised of college 
+                        graduates, business owners, and community leaders
 
-                  </p>
-                </div>
-                <div  class="key-point">
-                  <p>
-GEMS participate in monthly field 
-trips to allow for exposure and 
-increased awareness to the world 
-around them
+                          </p>
+                        </div>
+                        <div  class="swiper-slide">
+                          <h1>6</h1>
 
-                  </p>
-                </div>
+                          <p>
+                        REAL GEMS is a Christian-based organization
+
+                          </p>
+                        </div>
+                        <div  class="swiper-slide">
+                          <h1>7</h1>
+
+                          <p>
+                        REAL GEMS uses a practical 
+                        application of biblical principles
+
+                          </p>
+                        </div>
+                        <div  class="swiper-slide">
+                          <h1>8</h1>
+
+                          <p>
+                        100% of members demonstrate improved 
+                        decision-making skills, heightened 
+                        leadership ability, increased self-awareness
+                        and self-regulation, and improved
+                        academic performance
+
+                          </p>
+                        </div>
+                        <div  class="swiper-slide">
+                          <h1>9</h1>
+
+                          <p>
+                        GEMS participate in monthly field 
+                        trips to allow for exposure and 
+                        increased awareness to the world 
+                        around them
+
+                          </p>
+                        </div>
+                    </div>
+                    <style>
+                    
+.autoplay-progress {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  z-index: 10;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #a641b8;
+}
+
+.autoplay-progress svg {
+  --progress: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  stroke-width: 4px;
+  stroke: #1d94ce;
+  fill: none;
+  stroke-dashoffset: calc(125.6px * (1 - var(--progress)));
+  stroke-dasharray: 125.6;
+  transform: rotate(-90deg);
+}
+                    </style>
+
+                       <div class="autoplay-progress">
+                      <svg viewBox="0 0 48 48">
+                        <circle cx="24" cy="24" r="20"></circle>
+                      </svg>
+                    <span></span>
+                  </div>
+                 
               </div>
             </section>
           </main>
@@ -248,11 +303,24 @@ around them
 
 
       $(document).ready(() => {
-            var swiper = new Swiper('.Slider-container', {
-                effect: 'cards',
+           const progressCircle = document.querySelector(".autoplay-progress svg");
+    const progressContent = document.querySelector(".autoplay-progress span");
+   
+            var swiper = new Swiper('.swiper', {
+              speed: 1000,
+               slidesPerView: 3,
+                spaceBetween: 30,
                 grabCursor: true,
-                centerdSlides: true,
-                loop: true,
+                stopOnLastSlide: true,
+                autoplay: {
+                  delay: 3000,
+                  disableOnInteraction: false,
+                },
+                on: {
+                  autoplayTimeLeft(s, time, progress) {
+                    progressCircle.style.setProperty("--progress", 1 - progress);
+                  }
+                }
               });
 
             let alreadAnimated = false;
@@ -268,7 +336,7 @@ around them
                       var top_of_screen = $(window).scrollTop();
 
                       if((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element)){
-                         $(el).addClass("background")
+                         {#  $(el).addClass("background")  }
                       } else {
                           {#  $('.custom-warning').hide();  }
                       }
