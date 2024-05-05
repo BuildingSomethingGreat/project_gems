@@ -4,12 +4,15 @@
               <img src="/assets/gems-logo.png" alt="" />
           </a>
         </div>
+
         <div class="menu-ct">
           <li><a href="/about">About</a></li>
           <li><a href="/team">Team</a></li>
           <li><a href="/media">Media</a></li>
           <li><a href="#">Legacy</a></li>
-          <div class="nav-divider"></div>
-          <li><a href="#">GEMS Portal</a></li>
         </div>
+{#  
+          <button>
+              <p>GEMS Portal</p>
+          </button>  }
 </div>

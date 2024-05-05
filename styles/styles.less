@@ -141,6 +141,27 @@ a {
   padding: 2%;
 }
 
+.nav-ct button {
+  outline: none;
+  border: none;
+
+  width: 300px;
+  height: 100px;
+  text-align: left !important;
+  // height: 50px;
+  border-radius: 50px;
+  background-color:#290808;
+  padding: 2% 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.nav-ct button p {
+  font-weight: bold;
+}
+
 .nav-ct {
   position: absolute;
   transition: all ease-in-out .5s;
@@ -162,7 +183,7 @@ a {
 
 .nav-img-ct {
   display: table;
-  width: 100px;
+  width: 150px;
   height: auto;
 }
 
@@ -188,29 +209,35 @@ a {
 
 .menu-ct {
   display: flex;
-  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  width: 50%;
+  flex-direction: row;
+  width: 45%;
   padding: 1rem 4rem;
-  border: 1px solid white;
+  // border: 1px solid white;
   height: 50px;
   border-radius: 100px;
 }
 
 li {
   text-decoration: none;
-   margin:  0 4%;
+  margin: 0 4%;
   list-style: none;
   list-style-type: none;
-  width: 100%;
+}
+
+
+.menu-ct:hover li:not(:hover) a{
+  opacity: .8;
 }
 
 li a {
+  margin: auto;
+  text-align: center;
   text-decoration: none;
   color: white;
   font-weight: bold;
   white-space: nowrap;
+  font-size: 2em;
 }
 
 .site-container {
@@ -1767,7 +1794,7 @@ margin: auto;
 
   transform: translateY(0);
 
-  bottom: -5%;
+  bottom: 1%;
   left: 0; right: 0;
 
   margin: 0 auto;
@@ -1938,12 +1965,12 @@ margin: auto;
 }
 
 @keyframes moveDown {
-  from {width: 425px;opacity: 1; bottom: -5%; }
+  from {width: 425px;opacity: 1; bottom: 1%; }
   to {width: 500px;opacity: 1; ;bottom: -10% ;}
 }
 
 @keyframes moveUp {
-  to {width: 425px;opacity: 1; bottom: -5%; }
+  to {width: 425px;opacity: 1; bottom: 1%; }
   from {width: 500px;opacity: 1; ;bottom: -10%; }
 }
 
@@ -2034,7 +2061,7 @@ margin: auto;
   line-height: 20px;
   opacity: 1;
   width: 100%;
-font-size: .8em;
+font-size: 1em;
 }
 
 .member .right .profile-ct {
@@ -2205,7 +2232,6 @@ button {
   color: gray;
   outline: none;
   border-radius: 10px;
-  opacity: .5;
   margin: 5% auto;
   display: block;
   background-color: transparent;
