@@ -42,10 +42,19 @@
         </p>
         </div>
         <div class="action-input-ct">
-            <squarespace:block-field class="" id="subscriber"/>
-
-            {#  <input type="email" name="email" placeholder="Enter email"/>
-            <input type="submit" name="submit" />  }
+            <form autocomplete="on" method="POST" novalidate="" onsubmit="return (function (form) {
+              Y.use('squarespace-form-submit', 'node', function usingFormSubmit(Y) {
+                (new Y.Squarespace.FormSubmit(form)).submit({
+                  formId: '6637f45f33a34f4d2fbd0bd5',
+                  collectionId: '',
+                  objectName: 'subscriber'
+                });
+              });
+              return false;
+            })(this);">
+            <input type="email" name="email" placeholder="Enter email"/>
+            <input type="submit" name="submit" />
+            </form>
         </div>
     </div>
 </div>
