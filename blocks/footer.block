@@ -42,8 +42,10 @@
         </p>
         </div>
         <div class="action-input-ct">
-            <input type="email" name="email" placeholder="Enter email"/>
-            <input type="submit" name="submit" />
+            <squarespace:block-field class="" id="subscriber" columns="12"/>
+
+            {#  <input type="email" name="email" placeholder="Enter email"/>
+            <input type="submit" name="submit" />  }
         </div>
     </div>
 </div>
