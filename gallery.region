@@ -18,6 +18,9 @@
           <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
    
         {#  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>  }
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+
   
   </head>
   <body class="gallery-body" id="{squarespace.page-id}" class="{squarespace.page-classes}">
@@ -40,7 +43,7 @@
             </div>
 
             <section class="swipe-section">
-                <h1 data-index="1" class="">
+                {#  <h1 data-index="1" class="">
                         "The GEMS are everything"
                 </h1>
                 <h1 data-index="2"  class="">
@@ -79,8 +82,54 @@
                   <h1 data-index="0"  class="fadeInSoon">
                         "The GEMS impact
                         is undeniable."
-                </h1>
-              <div class="swiper Slider-container">
+                </h1>  }
+                <div class="grid grid-cols-4 gap-4">
+                  <div style="height: fit-content;" class="grid gap-4">
+                      <div>
+                          <img class="h-auto max-w-full rounded-lg"  src="assets/student-1.jpeg" alt=""/>
+                      </div>
+                      <div>
+                          <img class="h-auto max-w-full rounded-lg"   src="assets/student-2.jpeg" alt=""/>
+                      </div>
+                      <div>
+                          <img class="h-auto max-w-full rounded-lg" src="assets/student-3.jpeg" alt=""/>
+                      </div>
+                  </div>
+                <div style="height: fit-content;" class="grid gap-4">
+                      <div>
+                          <img class="h-auto max-w-full rounded-lg"  src="assets/student-4.jpeg" alt=""/>
+                      </div>
+                      <div>
+                          <img class="h-auto max-w-full rounded-lg" src="assets/student-5.jpeg" alt=""/>
+                      </div>
+                      <div>
+                          <img class="h-auto max-w-full rounded-lg"  src="assets/student-6.jpeg" alt=""/>
+                      </div>
+                  </div>
+                  <div style="height: fit-content;" class="grid gap-4">
+                      <div>
+                          <img class="h-auto max-w-full rounded-lg"  src="assets/student-7.jpeg" alt=""/>
+                      </div>
+                      <div>
+                          <img class="h-auto max-w-full rounded-lg"  src="assets/student-8.jpeg" alt=""/>
+                      </div>
+                      <div>
+                          <img class="h-auto max-w-full rounded-lg"  src="assets/student-9.jpeg" alt=""/>
+                      </div>
+                  </div>
+                  <div style="height: fit-content;" class="grid gap-4">
+                      <div>
+                          <img class="h-auto max-w-full rounded-lg"  src="assets/student-10.jpeg" alt=""/>
+                      </div>
+                      <div>
+                          <img class="h-auto max-w-full rounded-lg"  src="assets/student-11.jpeg" alt=""/>
+                      </div>
+                      <div>
+                          <img class="h-auto max-w-full rounded-lg"  src="assets/student-12.jpeg" alt=""/>
+                      </div>
+                  </div>
+                </div>
+              {#  <div class="swiper Slider-container">
                     <div class="swiper-wrapper">
                        <div class="swiper-slide">
                             <div class="overlay"></div>
@@ -140,11 +189,14 @@
 
                     </div>
                     <p> Swipe to explore GEMs experiences and photos.</p>
-                </div>
+                </div>  }
             </section>
-          {@|apply footer.block}
+
+            {@|apply cta-gems-signup.block}
 
         </div>
+       {@|apply footer.block}
+
   </body>
 
   <script type="text/javascript">

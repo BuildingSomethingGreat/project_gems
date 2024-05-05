@@ -27,8 +27,7 @@
         <div class="site-container">
             <div class="splash-ct">
                 <div class="text-stack">
-                  <h3 class="fadeIn">
-                ABOUT</h3>
+                  <h3 class="fadeIn"> TEAM</h3>
                 <h1 class="fadeIn">
                    JUST WAIT UNTIL <br>
                       THE GEMS GET <br>
@@ -322,11 +321,9 @@
                 </div>
             </div>
 
-            
-            
-           
+            {@|apply cta-gems-signup.block}
+
         </div>
-        
         {@|apply footer.block}
 
   </body>

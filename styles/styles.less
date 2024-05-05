@@ -393,7 +393,7 @@ li a {
   margin: auto;
   min-height: 200px;
   overflow: hidden;
-  border-radius: 10px;
+  border-radius: 35px;
 
   box-shadow: 0px 3px 15px rgba(0,0,0,0.2)
 }
@@ -484,7 +484,6 @@ height: fit-content;
 .grad-card img {
   position: absolute;
   top: 0; right: 0; bottom: 0;
-  left: -40px;
   // top: -200px;
   width: 120%;
   height: auto;
@@ -537,7 +536,7 @@ body:has(.explore-trigger-ct:hover)  .card-3 {
   display: flex;
   align-items: center;
 
-  border: 1px solid white;
+  // border: 1px solid white;
   border-radius: 50px;
   width: 300px;
   height: 50px;
@@ -738,8 +737,7 @@ body:has(.explore-trigger-ct:hover)  .card-3 {
   height: 100%;
   width: 0;
   // background-color: purple;
-  background: linear-gradient(45deg, rgba(70, 69, 78, 0.5) 0%, rgba(83, 58, 96, 0.7) 100%);
-  backdrop-filter: blur(2px);
+  background: linear-gradient(45deg, rgba(70, 69, 78, 0.5) 0%, rgba(83, 58, 96, 0.7) 30%);
 
 }
 
@@ -1011,16 +1009,17 @@ body:has(.explore-trigger-ct:hover)  .card-3 {
   position: relative;
   z-index: 100;
   min-height: 500px;
+  height: 100%;
 padding: auto 2%;
   // overflow: hidden;
 
-  width: 100%;
+  width: 1200px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-
+margin: auto;
   margin-top: 10%;
 }
 .gems-archive-section .text-stack {
@@ -1028,14 +1027,15 @@ padding: auto 2%;
   flex-direction: row;
   align-items: center;
   margin: auto;
-  width: 70%;
+  width: 100%;
+  padding: 4%;
 }
 
 .gems-archive-section .text-stack .text-ct {
   display: flex;
   flex-direction: column;
   align-items: start;
-  margin: auto;
+  // margin: auto;
   width: 500px;
 }
 
@@ -1124,14 +1124,14 @@ padding: auto 2%;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
 
-  margin-top: 10%;
+  margin-top: -5%;
 }
 
 .gems-portal-img-stack {
   position: relative;
   display: flex;
   align-items: center;
-  width: 200px;
+  width: 300px;
   height: auto;
   margin: auto;
 
@@ -2420,7 +2420,7 @@ ul {
   min-height: 600px;
   width: 100%;
 
-  margin-top: -3% !important;
+  // margin-top: -3% !important;
 
 }
 .gem-call-ct .gem-gif {

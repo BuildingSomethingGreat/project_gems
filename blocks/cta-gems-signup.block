@@ -1,0 +1,29 @@
+ <div class="gem-call-ct">
+    <img class="gem-gif" src="/assets/gem.gif" alt="">
+    <img class="gem-gif" src="/assets/gem.gif" alt="">
+
+    <div class="gem-call">
+        <div class="text-stack">
+            <h3>CALL TO ACTION</h3>
+            <h1>
+                HAVE WHAT IT 
+                TAKES TO BE A
+                GEM?
+            </h1>
+            <p>
+            Apply now to be apart of the 2024 R.E.A.L. GEMS. 
+            Process takes 2-3 weeks and limited GEMS are taken 
+            each semster. 
+            </p>
+        </div>
+
+            <div class="action-btn">
+                <div class="action-img-ct">
+                <img src="/assets/gem-icon.png" alt="">
+                </div>
+                <p>
+            Apply Now
+                </p>
+            </div>
+    </div>
+</div>
