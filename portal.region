@@ -1,0 +1,394 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+    <!-- include system scripts, page meta, and header code injection -->
+    {squarespace-headers}
+    
+     <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.3/jquery.scrollTo.min.js" ></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+
+  </head>
+  <body class="portal-body" id="{squarespace.page-id}" class="{squarespace.page-classes}">
+        {@|apply loader.block}
+        {@|apply nav.block}
+        <div class="wrapper">
+      
+          <div class="site-container">
+              <div class="splash-ct">
+                  <div class="text-stack">
+                    <h3 class="fadeIn">
+                      GEMS PORTAL
+                    </h3>
+                    <h1 class="fadeIn">
+                          BECOME A GEM<br>
+                          AND START A<br>
+                          LEGACY
+                        {#  <span class="colorChange_about">TOGETHER.</span>  }
+                    </h1>
+                    <p class="fadeIn">
+                        <b >
+                        Learn about the R.E.A.L GEMS organization and how we plan
+                        to impact lives of young women.
+                        </b>
+                    </p>
+
+                    {@|apply scroll_icon.block}
+                  </div>
+              </div>
+          </div>
+
+          <div class="main-ct">
+            <main>
+              <section class="who-we-are">
+                <video loop autoplay muted playsinline>
+                  <source src="assets/who-are-we.mp4" type="video/mp4">
+                </video>
+              
+              </section>
+              <button>
+                  <p>
+                  view transcript
+                  </p>
+                </button>
+              <div class="vertical-divider"></div>
+              <section class="what-we-do">
+                <div class="text-stack">
+                  <h2>
+                    What we do. 
+                  </h2>
+                  <p>
+                    As a R.E.A.L GEM, you can expect to be
+                    involved in daily activities and community 
+                    excurions.
+                  </p>
+                </div>
+              
+                <div class="key-points">
+                    <div class="key-point">
+                    <img src="assets/empower.png" alt="">
+                    <h3 style="color: #B89AB9;">Empowerment Meetings</h3>
+                    <p>Weekly meetings where girls develop self-identity while building confidence and leadership.</p>
+                  </div>
+                  <div class="key-point">
+                    <img src="assets/culture.png" alt="">
+
+                    <h3 style="color: #D07B83;">Community Service</h3>
+                    <p>Outings to build character through service learning projects and contributing positively to the community.</p>
+                  </div>
+                  <div class="key-point">
+                    <img src="assets/awareness.png" alt="">
+                    <h3 style="color: #B062A8;">Cultural Awareness</h3>
+                    <p>Hands-on cultural experiences to equip the girls with diverse experiences.</p>
+                  </div>
+                </div>
+              </section>
+              <div class="vertical-divider"></div>
+
+              <section class="facts">
+                  <div class="text-stack">
+                  <h2>
+                  Did you know? 
+                  </h2>
+                  <p>
+                    Explore important milestones and key points 
+                    in the R.E.A.L GEMS organization.
+                  </p>
+                </div>
+              
+                <div class="card-cont swiper">
+                      <div class="swiper-wrapper">
+                                              
+                          <div class="swiper-slide ">
+                            <h1>1</h1>
+                            <p>
+                            Began building its family in <b>2003 
+                            with 12 girls</b> and it has grown and 
+                            impacted the lives of hundreds.
+                            </p>
+                          </div>
+                          <div class="swiper-slide">
+                            <h1>2</h1>
+
+                          <p>
+                          100% of REAL GEMS <b>graduate high 
+                          school</b> and go on to build productive futures
+                          </p>
+                          </div>
+                          <div class="swiper-slide">
+                            <h1>3</h1>
+
+                            <p>
+                          GEMS participate in community service 
+                          projects monthly, because we believe in <b>servant leadership</b>
+
+                            </p>
+                          </div>
+                          <div  class="swiper-slide">
+                            <h1>4</h1>
+
+                            <p>
+                          100% of members demonstrate improved 
+                          decision-making skills, heightened leadership 
+                          ability, increased self-awareness and self-regulation, 
+                          and improved academic performance
+
+                            </p>
+                          </div>
+                          <div  class="swiper-slide">
+                            <h1>5</h1>
+                            <p>
+                          REAL GEMS legacy is comprised of college 
+                          graduates, business owners, and community leaders
+
+                            </p>
+                          </div>
+                          <div  class="swiper-slide">
+                            <h1>6</h1>
+
+                            <p>
+                          REAL GEMS is a Christian-based organization
+
+                            </p>
+                          </div>
+                          <div  class="swiper-slide">
+                            <h1>7</h1>
+
+                            <p>
+                          REAL GEMS uses a practical 
+                          application of biblical principles
+
+                            </p>
+                          </div>
+                          <div  class="swiper-slide">
+                            <h1>8</h1>
+
+                            <p>
+                          100% of members demonstrate improved 
+                          decision-making skills, heightened 
+                          leadership ability, increased self-awareness
+                          and self-regulation, and improved
+                          academic performance
+
+                            </p>
+                          </div>
+                          <div  class="swiper-slide">
+                            <h1>9</h1>
+
+                            <p>
+                          GEMS participate in monthly field 
+                          trips to allow for exposure and 
+                          increased awareness to the world 
+                          around them
+
+                            </p>
+                          </div>
+                      </div>
+                      <style>
+                      
+                          .autoplay-progress {
+                            position: absolute;
+                            right: 16px;
+                            bottom: 16px;
+                            z-index: 10;
+                            width: 48px;
+                            height: 48px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            font-weight: bold;
+                            color: #a641b8;
+                          }
+
+                          .autoplay-progress svg {
+                            --progress: 0;
+                            position: absolute;
+                            left: 0;
+                            top: 0;
+                            z-index: 10;
+                            width: 100%;
+                            height: 100%;
+                            stroke-width: 4px;
+                            stroke: #1d94ce;
+                            fill: none;
+                            stroke-dashoffset: calc(125.6px * (1 - var(--progress)));
+                            stroke-dasharray: 125.6;
+                            transform: rotate(-90deg);
+                          }
+                      </style>
+
+                        <div class="autoplay-progress">
+                        <svg viewBox="0 0 48 48">
+                          <circle cx="24" cy="24" r="20"></circle>
+                        </svg>
+                      <span></span>
+                    </div>
+                  
+                </div>
+              </section>
+            </main>
+          </div>
+
+          {@|apply cta-gems-signup.block}
+        </div>
+        
+        {@|apply footer.block}
+
+  </body>
+
+  <script type="text/javascript">
+    (function() {
+
+      var navbar = document.getElementById("nav");
+      var sticky = navbar.offsetTop;
+
+      function stickyNav() {
+        if ($(".site-container").offset().top <= sticky) {
+          navbar.classList.add("sticky")
+          {#  $(".nav-img-ct img").attr("src", "/assets/gems-log-purple.png");  }
+        } 
+        
+         if ($(".site-container").offset().top == 0 
+         ||  $(".site-container").offset().top >= sticky) {
+          navbar.classList.remove("sticky");
+          $(".nav-img-ct img").attr("src", "/assets/gems-logo.png");
+        }
+      }
+
+      function scrollS() {
+            $(".swipe-cont h1").addClass("fadeUpDim");
+            var tiemout = setTimeout(() => {
+                $(".swipe-cont .swiper").addClass("fadeUp");
+                $(".swipe-cont h1 span").addClass("colorChange");
+            }, 3000);
+        }
+
+        function isElementInViewport(elem) {
+            var $elem = $(elem);
+
+            var scrollElem = ((navigator.userAgent.toLowerCase().indexOf('webkit') != -1) ? 'body' : 'html');
+            var viewportTop = $(scrollElem).scrollTop();
+            var viewportBottom = viewportTop + $(window).height();
+
+            var elemTop = Math.round( $elem.offset().top );
+            var elemBottom = elemTop + $elem.height();
+
+            return ((elemTop < viewportBottom) && (elemBottom > viewportTop));
+        }
+
+         function animateKeyPoints() {
+              var $elem = $('.what-we-do .key-points  .key-point');
+              var $animateEl = $('.what-we-do .key-points  .key-point:nth-child(1)');
+              var $animateEl2 = $('.what-we-do .key-points .key-point:nth-child(3)');
+              
+              if (isElementInViewport($elem)) {
+                  $animateEl.addClass('moveIn_key1');
+                  $animateEl2.addClass('moveIn_key2');
+              } else {
+                  {#  $elem.removeClass('start');  }
+              }
+        }
+
+
+      $(document).ready(() => {
+           const progressCircle = document.querySelector(".autoplay-progress svg");
+    const progressContent = document.querySelector(".autoplay-progress span");
+   
+            var swiper = new Swiper('.swiper', {
+              speed: 1000,
+               slidesPerView: 3,
+                spaceBetween: 30,
+                grabCursor: true,
+                stopOnLastSlide: true,
+                autoplay: {
+                  delay: 3000,
+                  disableOnInteraction: false,
+                },
+                on: {
+                  autoplayTimeLeft(s, time, progress) {
+                    progressCircle.style.setProperty("--progress", 1 - progress);
+                  }
+                }
+              });
+
+            let alreadAnimated = false;
+
+            $("body").on("scroll", function() {
+                stickyNav();
+                animateKeyPoints();
+
+                    $(".facts .key-points .key-point").each((i, el)  => {
+                      var top_of_element = $(el).offset().top;
+                      var bottom_of_element = $(el).offset().top + $(this).outerHeight();
+                      var bottom_of_screen = $(window).scrollTop() + window.innerHeight;
+                      var top_of_screen = $(window).scrollTop();
+
+                      if((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element)){
+                         {#  $(el).addClass("background")  }
+                      } else {
+                          {#  $('.custom-warning').hide();  }
+                      }
+                  })
+           });
+
+          {#  document.querySelector('video').playbackRate = .5;  }
+
+
+            $(".board-ct .img-ct img").each((index, el) => {
+                  $(el).on("click", () => {
+                      let link = $(el).data("profile");
+                   
+                      $(".text-stack").fadeOut();
+                    $(".board-ct").removeClass("moveUp");
+                      $(".board-ct").addClass("moveDown");
+                      
+
+                      if ($(".members-ct").find(`[data-profile-link=` + link + `]`).hasClass("hide")) {
+                          $(".board-ct .exit-ct").fadeIn();
+                          $(".board-ct .exit-ct").addClass("show");
+
+                           $(".members-ct").addClass("fadeUp");
+                           $(".members-ct").removeClass("fadeDown");
+                           
+                          $(".members-ct .member").addClass("hide");
+                          $(".members-ct").find(`[data-profile-link=` + link + `]`).removeClass("hide");
+                          $(".members-ct").find(`[data-profile-link=` + link + `]`).addClass("show");
+                      } 
+
+                      {#  $(".members-ct").find(`[data-profile-link='2']`).removeClass("hide");
+                      $(".members-ct").find(`[data-profile-link='2']`).addClass("show");  }
+                  });
+
+              })
+
+              $(".board-ct .exit-ct").on("click", () => {
+                    $(".text-stack").fadeIn();
+
+                    $(".board-ct .exit-ct").fadeOut();
+                    $(".members-ct").addClass("fadeDown");
+                    $(".members-ct").removeClass("fadeUp");
+
+
+                    $(".board-ct").removeClass("moveDown");
+                    $(".board-ct").addClass("moveUp");
+              })
+
+      })
+    })();
+  </script>
+</html>
+
