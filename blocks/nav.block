@@ -9,7 +9,7 @@
           <li><a href="/about">About</a></li>
           <li><a href="/team">Team</a></li>
           <li><a href="/media">Media</a></li>
-          <li><a href="#">Legacy</a></li>
+          <li><a href="/portal">Legacy</a></li>
         </div>
 {#  
           <button>
