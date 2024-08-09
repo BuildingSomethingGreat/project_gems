@@ -284,7 +284,7 @@
             var elem = document.getElementById("progressBar");
               if (width >= 100) {
                 clearInterval(myInterval);
-                {#  document.location.href = "/free";  }
+                document.location.href = "/portal";
                 i = 0;
               } else {
                 width++;

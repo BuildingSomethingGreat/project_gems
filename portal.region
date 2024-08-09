@@ -11,6 +11,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
+        <script src="https://cdn.tailwindcss.com"></script>
 
         <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js" ></script>
@@ -19,14 +20,23 @@
         <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
 
-        <script src="https://cdn.tailwindcss.com"></script>
         <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+  
+        <style>
+           .profile {
+              margin-right: 10px;
+              display: inline-flex;
+              flex-direction: column;
+              align-items: center;
+              overflow: hidden;
+              padding: 1rem;
+            }
 
+        </style>
   </head>
   <body class="portal-body" id="{squarespace.page-id}" class="{squarespace.page-classes}">
         {@|apply loader.block}
         {@|apply nav.block}
-        <div class="wrapper">
       
           <div class="site-container">
               <div class="splash-ct">
@@ -52,202 +62,72 @@
               </div>
           </div>
 
-          <div class="main-ct">
-            <main>
-              <section class="who-we-are">
-                <video loop autoplay muted playsinline>
-                  <source src="assets/who-are-we.mp4" type="video/mp4">
-                </video>
-              
-              </section>
-              <button>
-                  <p>
-                  view transcript
-                  </p>
-                </button>
-              <div class="vertical-divider"></div>
-              <section class="what-we-do">
-                <div class="text-stack">
-                  <h2>
-                    What we do. 
-                  </h2>
-                  <p>
-                    As a R.E.A.L GEM, you can expect to be
-                    involved in daily activities and community 
-                    excurions.
-                  </p>
+          <div class="dashboard-wrapper relative w-full h-auto bg-white p-5">
+            <div class="dashboard mt-5  w-full h-screen m-auto overflow-hidden flex flex-row items-start justify-evenly gap-y-0 gap-x-3 grid grid-cols-7 grid-rows-1">
+              {#  left  }
+                <div class="dashboard-left  col-start-1 col-span-1 row-1">
+                 
                 </div>
-              
-                <div class="key-points">
-                    <div class="key-point">
-                    <img src="assets/empower.png" alt="">
-                    <h3 style="color: #B89AB9;">Empowerment Meetings</h3>
-                    <p>Weekly meetings where girls develop self-identity while building confidence and leadership.</p>
+
+                  {#  right  }
+                <div class="dashboard-right rounded-lg flex flex-col items-start col-start-6 col-span-2 row-1">
+                  <div class="w-full mt-0 mx-auto cursor-pointer">
+                    <img class="w-full m-auto" src="assets/side-promo.png"/>
                   </div>
-                  <div class="key-point">
-                    <img src="assets/culture.png" alt="">
 
-                    <h3 style="color: #D07B83;">Community Service</h3>
-                    <p>Outings to build character through service learning projects and contributing positively to the community.</p>
-                  </div>
-                  <div class="key-point">
-                    <img src="assets/awareness.png" alt="">
-                    <h3 style="color: #B062A8;">Cultural Awareness</h3>
-                    <p>Hands-on cultural experiences to equip the girls with diverse experiences.</p>
-                  </div>
-                </div>
-              </section>
-              <div class="vertical-divider"></div>
-
-              <section class="facts">
-                  <div class="text-stack">
-                  <h2>
-                  Did you know? 
-                  </h2>
-                  <p>
-                    Explore important milestones and key points 
-                    in the R.E.A.L GEMS organization.
-                  </p>
-                </div>
-              
-                <div class="card-cont swiper">
-                      <div class="swiper-wrapper">
-                                              
-                          <div class="swiper-slide ">
-                            <h1>1</h1>
-                            <p>
-                            Began building its family in <b>2003 
-                            with 12 girls</b> and it has grown and 
-                            impacted the lives of hundreds.
-                            </p>
-                          </div>
-                          <div class="swiper-slide">
-                            <h1>2</h1>
-
-                          <p>
-                          100% of REAL GEMS <b>graduate high 
-                          school</b> and go on to build productive futures
-                          </p>
-                          </div>
-                          <div class="swiper-slide">
-                            <h1>3</h1>
-
-                            <p>
-                          GEMS participate in community service 
-                          projects monthly, because we believe in <b>servant leadership</b>
-
-                            </p>
-                          </div>
-                          <div  class="swiper-slide">
-                            <h1>4</h1>
-
-                            <p>
-                          100% of members demonstrate improved 
-                          decision-making skills, heightened leadership 
-                          ability, increased self-awareness and self-regulation, 
-                          and improved academic performance
-
-                            </p>
-                          </div>
-                          <div  class="swiper-slide">
-                            <h1>5</h1>
-                            <p>
-                          REAL GEMS legacy is comprised of college 
-                          graduates, business owners, and community leaders
-
-                            </p>
-                          </div>
-                          <div  class="swiper-slide">
-                            <h1>6</h1>
-
-                            <p>
-                          REAL GEMS is a Christian-based organization
-
-                            </p>
-                          </div>
-                          <div  class="swiper-slide">
-                            <h1>7</h1>
-
-                            <p>
-                          REAL GEMS uses a practical 
-                          application of biblical principles
-
-                            </p>
-                          </div>
-                          <div  class="swiper-slide">
-                            <h1>8</h1>
-
-                            <p>
-                          100% of members demonstrate improved 
-                          decision-making skills, heightened 
-                          leadership ability, increased self-awareness
-                          and self-regulation, and improved
-                          academic performance
-
-                            </p>
-                          </div>
-                          <div  class="swiper-slide">
-                            <h1>9</h1>
-
-                            <p>
-                          GEMS participate in monthly field 
-                          trips to allow for exposure and 
-                          increased awareness to the world 
-                          around them
-
-                            </p>
-                          </div>
-                      </div>
-                      <style>
-                      
-                          .autoplay-progress {
-                            position: absolute;
-                            right: 16px;
-                            bottom: 16px;
-                            z-index: 10;
-                            width: 48px;
-                            height: 48px;
-                            display: flex;
-                            align-items: center;
-                            justify-content: center;
-                            font-weight: bold;
-                            color: #a641b8;
-                          }
-
-                          .autoplay-progress svg {
-                            --progress: 0;
-                            position: absolute;
-                            left: 0;
-                            top: 0;
-                            z-index: 10;
-                            width: 100%;
-                            height: 100%;
-                            stroke-width: 4px;
-                            stroke: #1d94ce;
-                            fill: none;
-                            stroke-dashoffset: calc(125.6px * (1 - var(--progress)));
-                            stroke-dasharray: 125.6;
-                            transform: rotate(-90deg);
-                          }
-                      </style>
-
-                        <div class="autoplay-progress">
-                        <svg viewBox="0 0 48 48">
-                          <circle cx="24" cy="24" r="20"></circle>
-                        </svg>
-                      <span></span>
+                  <div class="my-5 m-auto h-full w-full">
+                    <h2 style="line-height: 20px;" class="text-xl  text-left font-bold">
+                    What's <br>
+                    happening <br>
+                    now.
+                    </h2>
+                    
+                    <div style=" height: 200px;" class="my-3 grid w-full grid-cols-2 grid-rows-2">
+                        <div style="background-color: #353D4A;" class="col-start-1 col-span-1 row-1 rounded-xl"></div>
+                        <div style="background-color: #B2B2B6;"  class="col-start-2 col-span-1 row-2 rounded-xl"></div>
+                        <div style="background-color: #0F1A2C;" class="col-start-1 col-span-1 row-start-2 row-span-1 rounded-xl"></div>
+                        <div style="background-color: #4C505E;"  class="col-start-2 col-span-1 row-start-2 row-span-1 rounded-xl"></div>
                     </div>
-                  
+                  </div>
                 </div>
-              </section>
-            </main>
+
+              {#  center  }
+                <div class="dashboard-center rounded-lg h-screen overflow-y-auto  col-start-2 col-span-4 row-1">
+                  <section class="w-fit-content bg-gray-100 p-4">
+                    <h3 class="ms-0 text-xl font-bold text-purple-800">
+                      CURRENT
+                    </h3>
+                    <div class="profile-ct block ms-0 my-3 whitespace-nowrap">
+                        <div class="profile ">
+                            <img class="w-24 h-24 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500" src="assets/pro-1.png" alt="Bordered avatar">
+                            <p class="text-gray-500 font-bold mt-2">Jane</p>
+                        </div>
+                        <div class="profile ">
+                            <img class="w-24 h-24 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500" src="assets/pro-2.png" alt="Bordered avatar">
+                            <p class="text-gray-500 font-bold mt-2">Beth</p>
+                        </div>
+                        <div class="profile ">
+                            <img class="w-24 h-24 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500" src="assets/pro-3.png" alt="Bordered avatar">
+                            <p class="text-gray-500 font-bold mt-2">Brittany</p>
+                        </div>
+                        <div class="profile ">
+                            <img class="w-24 h-24 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500" src="assets/pro-4.png" alt="Bordered avatar">
+                            <p class="text-gray-500 font-bold mt-2">Jessie</p>
+                        </div>
+                    </div>
+                  </section>
+
+                  <section class="w-fit-content bg-gray-100 p-4">
+                    <h3 class="ms-0 text-xl font-bold text-purple-800">
+                      LEGACY
+                    </h3>
+                    <div class="legacy-ct block ms-0 my-3">
+                        
+                    </div>
+                  </section>
+                </div>
+            </div>
           </div>
-
-          {@|apply cta-gems-signup.block}
-        </div>
-        
-        {@|apply footer.block}
-
   </body>
 
   <script type="text/javascript">
@@ -386,6 +266,25 @@
                     $(".board-ct").removeClass("moveDown");
                     $(".board-ct").addClass("moveUp");
               })
+
+                var legacyData = [ 
+                {"id": 1, "name": "Sarah", "subtitle" : "MSU Graduate | Business Owner ", "testimony": "REAL GEMS was a divine blessing, offering a profound framework of servant leadership, love, and self-assurance that I hadn't realized I lacked. My experience with GEMS proved to be a resource for healing, a haven for security, and a close-knit community fostering sisterhood.", "imgSrc":"assets\/gems-legacy-1.png", "supportLink":"www.google.com"}, 
+                {"id": 1, "name": "Jordyn", "subtitle" : "", "testimony": "Being A GEM has been a transformative experience for me. Having a person like Ms. Hill in my life at a young age set the foundation for me to move beyond what I thought I knew. Ms. Hill has always had an eye for seeing the hidden potential and pulling that out of you, whether you see it yourself or not. Being a member of REAL G.E.M.S challenges your perspectives, encourages personal growth, and creates a sisterhood of empowering women. Ms. Hill's genuine excitement and encouragement for the young generation of women to grow into the best versions of themselves is so pure, which is why REAL G.E.M.S will continue to flourish.", "imgSrc":"assets\/gems-legacy-2.png", "supportLink":"www.google.com"}, 
+                {"id": 1, "name": "Teka", "subtitle" : "", "testimony": "REAL GEMS was something I never thought I would be able to fit into due to my confidence level at the time, until the ladies already involved showed me it's a confidence booster! Having a community of supportive women and an even more supportive mentor gave me the head start I didn't know I needed.", "imgSrc":"assets\/gems-legacy-3.png", "supportLink":"www.google.com"},
+                {"id": 1, "name": "Kaylyn", "subtitle" : "", "testimony": "REAL GEMS helped me get out of my shell and made me feel good about being a part of something other than basketball. I'll always remember the foundation it gave me as a young woman and the real-life skills it taught me. I'm currently a remote Medical Coder and am proud to say that GEMS will always play a part as I excel in life and my career.", "imgSrc":"assets\/gems-legacy-4.png", "supportLink":"www.google.com"},
+                {"id": 1, "name": "Allie", "subtitle" : "", "testimony": "REAL G.E.M.S. has helped me foster lifelong friendships and empowered me to be a part of organizations surrounded by other successful women. A truly unforgettable mentorship experience!", "imgSrc":"assets\/gems-legacy-5.png", "supportLink":"www.google.com"},
+                {"id": 1, "name": "Colbi", "subtitle" : "", "testimony": "REAL GEMS helped lay the foundation for my walk into womanhood. It helped me to improve my self-esteem and self-worth and has helped make me into the woman I am today.", "imgSrc":"assets\/gems-legacy-6.png", "supportLink":"www.google.com"},
+                {"id": 1, "name": "Jayla", "subtitle" : "", "testimony": "REAL GEMS has played such a pivotal role in who I am today and the woman I am growing into. To have learned how to love myself, treat others with kindness, and value sisterhood at such a crucial time in my adolescence, has truly empowered me to maintain success!", "imgSrc":"assets\/gems-legacy-7.png", "supportLink":"www.google.com"},
+                {"id": 1, "name": "Trinity", "subtitle" : "Dental Assistant", "testimony": "I truly believe that without REAL GEMS, I wouldn't be the woman I am today. The invaluable lessons I acquired not only motivated me to evolve into an inspirational leader but also shaped me into the strong and resilient woman I am today. GEMS instilled in me the significance of giving back to my community, the true essence of sisterhood, and the importance of maintaining high standards in all aspects of my life. Thanks to the exceptional mentorship provided by Ms. Hill, I genuinely wouldn't be the amazing woman I am today without her love and this life-changing program.", "imgSrc":"assets\/gems-legacy-8.png", "supportLink":"www.google.com"},
+                {"id": 1, "name": "Amber", "subtitle" : "Dental Assistant", "testimony": "I love the Gems", "imgSrc":"assets\/gems-legacy-10.png", "supportLink":"https://www.google.com"},
+                {"id": 1, "name": "Sab", "subtitle" : "Dental Assistant", "testimony": "I love the Gems", "imgSrc":"assets\/gems-legacy-11.png", "supportLink":"https://www.google.com"},
+                {"id": 1, "name": "Sab", "subtitle" : "Dental Assistant", "testimony": "I love the Gems", "imgSrc":"assets\/gems-legacy-12.png", "supportLink":"https://www.google.com"},
+                {"id": 1, "name": "Sab", "subtitle" : "Dental Assistant", "testimony": "I love the Gems", "imgSrc":"assets\/gems-legacy-13.png", "supportLink":"https://www.google.com"}
+                ];
+
+              $.each(legacyData, (i, legacy) => {
+                  $(".legacy-ct").append("<div class=\"legacy mb-5 bg-white p-2 rounded-lg grid grid-cols-3 grid-rows-1 gap-2\">\<div style=\"max-height: 250px;\" class=\"w-4\/5 m-auto col-start-1 col-span-1 bg-black rounded-lg overflow-hidden\"><img class=\"w-full h-auto \" src=\"" + legacy.imgSrc + "\" alt=\"\"> <\/div> <div class=\"info p-2 rounded-lg  col-start-2 col-span-2 \"><div class=\" grid grid-cols-5 gap-4  p-2 info-header \"><div class=\"col-span-2 badge-ct  m-auto ms-0 mx-2 rounded-lg bg-blue-600 p-2\"><h2 class=\"text-sm text-center text-white font-bold\">2004 CLASS<\/h2><\/div><div class=\"col-span-3  info-personal flex flex-col items-start\">\r\n                                      <h5 class=\"text-md font-bold\">" + legacy.name + "<\/h5>\r\n                                      <p class=\"text-xs font-bold text-gray-600\">" + legacy.subtitle + "<\/p>\r\n                                  <\/div>\r\n                                <\/div>\r\n                                <p class=\"my-3 text-sm text-gray-800 text-left\">"  + legacy.testimony + "<\/p>\r\n\r\n                                 <a href=\"" + legacy.supportLink + "\" class=\"cursor-pointer border border-gray-500 hover:border-blue-500 rounded-lg flex flex-row items-center justify-evenly\">\r\n                                    <div class=\"gap-4 rounded-lg p-2 grid grid-cols-6 flex flex-row items-center\">\r\n                                        <div class=\"w-10 h-10\">\r\n                                          <img class=\"w-full m-auto\" src=\"assets\/gift-icon.png\">\r\n                                        <\/div>\r\n                                        <div class=\"col-span-4 flex flex-col items-start justify-start\">\r\n                                          <p class=\"text-sm font-bold text-left text-black\">Support " + legacy.name + "'s Business<\/p>\r\n                                          <p class=\"text-xs text-left text-gray-500\">I'm raising money for my new business<\/p>\r\n                                        <\/div>\r\n                                         <div class=\"col-span-1 \">\r\n                                          <img class=\"w-full m-auto\" src=\"assets\/Paypal-logo.png\">\r\n                                        <\/div>\r\n                                    <\/div>\r\n                                 <\/a>\r\n\r\n                            <\/div>\r\n                        <\/div>");
+              });
 
       })
     })();
