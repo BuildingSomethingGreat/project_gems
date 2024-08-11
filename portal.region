@@ -70,32 +70,35 @@
                 </div>
 
                   {#  right  }
-                <div class="dashboard-right rounded-lg flex flex-col items-start col-start-6 col-span-2 row-1">
-                  <div class="w-full mt-0 mx-auto cursor-pointer">
-                    <img class="w-full m-auto" src="assets/side-promo.png"/>
-                  </div>
+                <div class="dashboard-right rounded-lg col-start-6 col-span-2 row-1">
+                    <div style="min-height: 500px; z-index: 1; " class="overflow-hidden relative rounded-lg">
+                        <div style="height: fit-content;" class="absolute left-0 right-0 bottom-0 p-2 m-auto w-[90%] z-20 ">
+                            <span class="my-2 bg-green-100 text-green-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded-full">Student Athelete</span>
 
-                  <div class="my-5 m-auto h-full w-full">
-                    <h2 style="line-height: 20px;" class="text-xl  text-left font-bold">
-                    What's <br>
-                    happening <br>
-                    now.
-                    </h2>
-                    
-                    <div style=" height: 200px;" class="my-3 grid w-full grid-cols-2 grid-rows-2">
-                        <div style="background-color: #353D4A;" class="col-start-1 col-span-1 row-1 rounded-xl"></div>
-                        <div style="background-color: #B2B2B6;"  class="col-start-2 col-span-1 row-2 rounded-xl"></div>
-                        <div style="background-color: #0F1A2C;" class="col-start-1 col-span-1 row-start-2 row-span-1 rounded-xl"></div>
-                        <div style="background-color: #4C505E;"  class="col-start-2 col-span-1 row-start-2 row-span-1 rounded-xl"></div>
+                            <h1 class="text-white font-bold text-7xl">Jackie</h1>
+                            <p class="my-2 text-white text-justify text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                            nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                        </div>
+
+                        <div style="z-index: 1;" class="absolute top-0  w-full h-full">
+                          <div class="overlay "></div>
+                          <img class="h-auto w-full" src="assets/student-9.jpeg" alt="">
+                        </div>
                     </div>
-                  </div>
+{#  
+                    <div style="min-height: 300px;" class="z-20 -mt-64 m-auto w-4/5 h-full shadow-lg rounded-lg">
+                        <p>test</p>
+                    </div>  }
                 </div>
 
               {#  center  }
                 <div class="dashboard-center rounded-lg h-screen overflow-y-auto  col-start-2 col-span-4 row-1">
                   <section class="w-fit-content bg-gray-100 p-4">
                     <h3 class="ms-0 text-xl font-bold text-purple-800">
-                      CURRENT
+                      Current
                     </h3>
                     <div class="profile-ct block ms-0 my-3 whitespace-nowrap">
                         <div class="profile ">
@@ -119,10 +122,10 @@
 
                   <section class="w-fit-content bg-gray-100 p-4">
                     <h3 class="ms-0 text-xl font-bold text-purple-800">
-                      LEGACY
+                      Legacy
                     </h3>
                     <div class="legacy-ct block ms-0 my-3">
-                        
+                        <!-- Generated  -->
                     </div>
                   </section>
                 </div>
@@ -275,11 +278,21 @@
                 {"id": 1, "name": "Allie", "subtitle" : "", "testimony": "REAL G.E.M.S. has helped me foster lifelong friendships and empowered me to be a part of organizations surrounded by other successful women. A truly unforgettable mentorship experience!", "imgSrc":"assets\/gems-legacy-5.png", "supportLink":"www.google.com"},
                 {"id": 1, "name": "Colbi", "subtitle" : "", "testimony": "REAL GEMS helped lay the foundation for my walk into womanhood. It helped me to improve my self-esteem and self-worth and has helped make me into the woman I am today.", "imgSrc":"assets\/gems-legacy-6.png", "supportLink":"www.google.com"},
                 {"id": 1, "name": "Jayla", "subtitle" : "", "testimony": "REAL GEMS has played such a pivotal role in who I am today and the woman I am growing into. To have learned how to love myself, treat others with kindness, and value sisterhood at such a crucial time in my adolescence, has truly empowered me to maintain success!", "imgSrc":"assets\/gems-legacy-7.png", "supportLink":"www.google.com"},
-                {"id": 1, "name": "Trinity", "subtitle" : "Dental Assistant", "testimony": "I truly believe that without REAL GEMS, I wouldn't be the woman I am today. The invaluable lessons I acquired not only motivated me to evolve into an inspirational leader but also shaped me into the strong and resilient woman I am today. GEMS instilled in me the significance of giving back to my community, the true essence of sisterhood, and the importance of maintaining high standards in all aspects of my life. Thanks to the exceptional mentorship provided by Ms. Hill, I genuinely wouldn't be the amazing woman I am today without her love and this life-changing program.", "imgSrc":"assets\/gems-legacy-8.png", "supportLink":"www.google.com"},
-                {"id": 1, "name": "Amber", "subtitle" : "Dental Assistant", "testimony": "I love the Gems", "imgSrc":"assets\/gems-legacy-10.png", "supportLink":"https://www.google.com"},
-                {"id": 1, "name": "Sab", "subtitle" : "Dental Assistant", "testimony": "I love the Gems", "imgSrc":"assets\/gems-legacy-11.png", "supportLink":"https://www.google.com"},
-                {"id": 1, "name": "Sab", "subtitle" : "Dental Assistant", "testimony": "I love the Gems", "imgSrc":"assets\/gems-legacy-12.png", "supportLink":"https://www.google.com"},
-                {"id": 1, "name": "Sab", "subtitle" : "Dental Assistant", "testimony": "I love the Gems", "imgSrc":"assets\/gems-legacy-13.png", "supportLink":"https://www.google.com"}
+                {"id": 1, "name": "Trinity", "subtitle" : "", "testimony": "I truly believe that without REAL GEMS, I wouldn't be the woman I am today. The invaluable lessons I acquired not only motivated me to evolve into an inspirational leader but also shaped me into the strong and resilient woman I am today. GEMS instilled in me the significance of giving back to my community, the true essence of sisterhood, and the importance of maintaining high standards in all aspects of my life. Thanks to the exceptional mentorship provided by Ms. Hill, I genuinely wouldn't be the amazing woman I am today without her love and this life-changing program.", "imgSrc":"assets\/gems-legacy-8.png", "supportLink":"www.google.com"},
+                {"id": 1, "name": "Amber", "subtitle" : "", "testimony": "REAL GEMS is where I built a bond with my lifelong sisters and best friends. GEMS inspired me to dream BIG and accomplish anything I set my mind to do! GEMS is a sisterhood and bond that could never be broken. It is recommended 10 out of 10!", "imgSrc":"assets\/gems-legacy-10.png", "supportLink":"https://www.google.com"},
+                {"id": 1, "name": "Savannah", "subtitle" : "", "testimony": "REAL GEMS has impacted the woman I am today by teaching me empathy. To be able to understand and connect with other people in a soft manner truly speaks volumes to the next person. REAL GEMS taught me how to be an effective leader, a person who knows how to give clear communication and build confidence while empowering others to feel confident in themselves. Without GEMS I honestly can't say I would be the woman I am today. I find myself always going back in my memory and connecting the present time to each workshop Ms. Hill had us participate in. I know the true meaning of sisterhood because of her!", "imgSrc":"assets\/gems-legacy-11.png", "supportLink":"https://www.google.com"},
+                {"id": 1, "name": "Taylor", "subtitle" : "", "testimony": "REAL GEMS has played a significant role in shaping the woman I've become. It provided me with one of my earliest experiences of sisterhood and served as a nurturing environment where my confidence flourished. I am eternally grateful to have been part of such a remarkable community, and GEMS will always hold a special place in my heart.", "imgSrc":"assets\/gems-legacy-12.png", "supportLink":"https://www.google.com"},
+                {"id": 1, "name": "Chantelle", "subtitle" : "", "testimony": "REAL GEMS opened my eyes to the possibilities of me. Giving me support and love when I felt broken and unwanted.", "imgSrc":"assets\/gems-legacy-13.png", "supportLink":"https://www.google.com"},
+                {"id": 1, "name": "Kristen", "subtitle" : "", "testimony": "Being a part of REAL GEMS has greatly impacted my life and has always stuck with me throughout adulthood. REAL GEMS taught me so many things about self-worth, etiquette, decision-making, and always striving past your greatest ambitions. The dedication and care that Ms. Hill puts into this program is truly remarkable and has a profound influence on numerous young women during such a critical period in their lives. I am forever grateful for the lessons, friendships, and guidance GEMS has brought into my life.", "imgSrc":"assets\/gems-legacy-14.jpg", "supportLink":"https://www.google.com"},
+                {"id": 1, "name": "Janae'", "subtitle" : "", "testimony": "REAL G.E.M.S has played such a pivotal role in my life and will forever be a part of me. There are so many tools that I use in my life today that I learned from G.E.M.S and Ms.Hill. I still remember a lot of the lessons ranging from handling conflicts in friendships, understanding your self-worth, and touching on how certain events in history affect us as black girls. I truly am grateful to have been in a space where I was surrounded by genuine love and support as a young black girl. My time in REAL G.E.M.S has allowed me to nurture my self-esteem and grow into a beautiful well-rounded young lady.", "imgSrc":"assets\/gems-legacy-15.png", "supportLink":"https://www.google.com"},
+                {"id": 1, "name": "Amber", "subtitle" : "", "testimony": "In GEMS I learned to believe in myself. I wasn't raised with a silver spoon nor a plastic one however, I WAS BLESSED because REAL GEMS gave me mentors, companions, sisterhood, and a GROUP. GEMS/sisterhood gave me the strength to guide me through college, a prosperous future, career, entrepreneurship, and life. I'm thriving because of my girls! GEMS!", "imgSrc":"assets\/gems-legacy-16.png", "supportLink":"https://www.google.com"},
+                {"id": 1, "name": "Paige", "subtitle" : "", "testimony": "REAL GEMS has been part of my journey since day 1 of my joining. From exciting new experiences to life-long lessons, Ms. Hill and my sisterhood have played a pivotal role in how I show up as a woman in today's world.", "imgSrc":"assets\/gems-legacy-17.png", "supportLink":"https://www.google.com"},
+                {"id": 1, "name": "Tomeka", "subtitle" : "", "testimony": "REAL GEMS not only gave me a sense of sisterhood but also the confidence I needed that I carried with me into the depths of womanhood. It's more than organization GEMS was the foresight into how successful I could really be.", "imgSrc":"assets\/gems-legacy-18.png", "supportLink":"https://www.google.com"},
+                {"id": 1, "name": "Jewel", "subtitle" : "", "testimony": "REAL GEMS was a molding block that truly shaped my perspective on life; it has given me a sense of belonging and self-confidence.GEMS has inspired me to strive for success in all that I do while supporting others, leading and cultivating genuine relationships.", "imgSrc":"assets\/gems-legacy-19.png", "supportLink":"https://www.google.com"},
+                {"id": 1, "name": "Sierra", "subtitle" : "", "testimony": "REAL GEMS solidified in me a sense of confidence, ambition, and excellence. The lessons I learned during my years of mentorship were really the framework for how I make goals and set standards for myself and others.", "imgSrc":"assets\/gems-legacy-20.png", "supportLink":"https://www.google.com"},
+                {"id": 1, "name": "Alyse", "subtitle" : "", "testimony": "REAL GEMS allowed me to understand my potential at a young age. It instilled in me the power of confidence & community. It nurtured my creativity & expressiveness. I carry these things over into my adulthood. I am forever grateful for REAL GEMS!", "imgSrc":"assets\/gems-legacy-21.png", "supportLink":"https://www.google.com"},
+                {"id": 1, "name": "Kristen", "subtitle" : "", "testimony": "REAL GEMS truly gave me a place to open up and begin the journey to loving myself. It's still something I'm trying to figure out but I learned so much about my worth through GEMS. GEMS felt like home at a time when I was really trying to find and feel comfortable with myself. I'll always be forever grateful to Ms.Hill and GEMS for creating such a safe and loving space for me.", "imgSrc":"assets\/gems-legacy-22.png", "supportLink":"https://www.google.com"},
+                {"id": 1, "name": "Shakayla", "subtitle" : "", "testimony": "REAL GEMS has impacted me because it gave me a community of sisters that I will value forever.", "imgSrc":"assets\/gems-legacy-23.png", "supportLink":"https://www.google.com"}
                 ];
 
               $.each(legacyData, (i, legacy) => {
